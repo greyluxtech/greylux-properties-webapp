@@ -7,7 +7,7 @@
                     <div class="icons"><i class="icon-telephone114"></i></div>
                     <ul class="text-center">
                         <li><strong>Phone Number</strong></li>
-                        <li>+1 900 234 567 - 68</li>
+                        <li>+1 900 234 567- 68</li>
                     </ul>
                 </div>
             </div>

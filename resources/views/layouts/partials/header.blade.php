@@ -10,7 +10,7 @@
                             <div class="icons"><i class="icon-telephone114"></i></div>
                             <ul>
                                 <li><strong>Phone Number</strong></li>
-                                <li>+1 900 234 567 - 68</li>
+                                <li>+234 701 366 9823</li>
                             </ul>
                         </div>
                     </div>
@@ -24,9 +24,9 @@
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" data-in="fadeIn" data-out="fadeOut">
-                            <li class="dropdown active">
-                                <a href="#." class="dropdown-toggle" data-toggle="dropdown">Home </a>
-                                <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a href="#." class="nav-link">Home </a>
+                                {{-- <ul class="dropdown-menu">
                                     <li><a href="index-1.html">Home Style 1</a></li>
                                     <li><a href="index2.html">Home Style 2</a></li>
                                     <li><a href="index3.html">Home Style 3</a></li>
@@ -37,11 +37,11 @@
                                     <li> <a href="index8.html">Home Style 8</a></li>
                                     <li> <a href="index9.html">Home Style 9</a></li>
                                     <li> <a href="fullscreen.html">Home Fullscreen<span>new</span></a></li>
-                                </ul>
+                                </ul> --}}
                             </li>
-                            <li class="dropdown megamenu-fw">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Listing</a>
-                                <ul class="dropdown-menu megamenu-content" role="menu">
+                            <li class="nav-item megamenu-fw">
+                                <a href="#" class="nav-link">Listing</a>
+                                {{-- <ul class="dropdown-menu megamenu-content" role="menu">
                                     <li>
                                         <div class="row">
                                             <div class="col-menu col-md-3">
@@ -131,11 +131,11 @@
                                             </div>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul> --}}
                             </li>
-                            <li class="dropdown megamenu-fw">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Properties</a>
-                                <ul class="dropdown-menu megamenu-content bg" role="menu">
+                            <li class="nav-item megamenu-fw">
+                                <a href="#" class="nav-link">Properties</a>
+                                {{-- <ul class="dropdown-menu megamenu-content bg" role="menu">
                                     <li>
                                         <div class="row">
                                             <div class="col-menu col-md-3">
@@ -192,11 +192,11 @@
                                             </div>
                                         </div>
                                     </li>
-                                </ul>
+                                </ul> --}}
                             </li>
-                            <li class="dropdown">
-                                <a href="#." class="dropdown-toggle" data-toggle="dropdown">Features </a>
-                                <ul class="dropdown-menu">
+                            <li class="nav-item">
+                                <a href="#." class="nav-link">FAQ </a>
+                                {{-- <ul class="dropdown-menu">
                                     <li class="dropdown">
                                         <a href="#." class="dropdown-toggle" data-toggle="dropdown">News</a>
                                         <ul class="dropdown-menu">
@@ -246,9 +246,10 @@
                                             <li><a href="404-2.html">404 Error 2<span>new</span></a></li>
                                         </ul>
                                     </li>
-                                </ul>
+                                </ul> --}}
                             </li>
-                            <li><a href="contact.html">Contact Us</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                            <li><a href="#">About Us</a></li>
                             <li><a href="#.">Buy Now</a></li>
                         </ul>
                     </div>
