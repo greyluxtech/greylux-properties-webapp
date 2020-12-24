@@ -272,7 +272,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2 class="uppercase">real estate properties</h2>
+                <h2 class="uppercase">properties</h2>
                 <p class="heading_space">We have Properties in these Areas View a list of Featured Properties.</p>
             </div>
         </div>
@@ -287,7 +287,7 @@
             <div class="cbp-item latest sale">
                 <div class="property_item">
                     <div class="image">
-                        <a href="property_detail1.html"><img src="images/listing1.jpg" alt="latest property"
+                        <a href="property_detail1.html"><img src="frontend/images/listing1.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
                             <span class="tag pull-right">$8,600 Per Month</span>
@@ -334,7 +334,7 @@
             <div class="cbp-item latest rent">
                 <div class="property_item">
                     <div class="image">
-                        <a href="property_detail2.html"><img src="images/listing2.jpg" alt="latest property"
+                        <a href="property_detail2.html"><img src="frontend/images/listing2.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
                             <span class="tag pull-right">$8,600 Per Month</span>
@@ -380,7 +380,7 @@
             <div class="cbp-item latest sale">
                 <div class="property_item">
                     <div class="image">
-                        <a href="property_detail3.html"><img src="images/listing3.jpg" alt="latest property"
+                        <a href="property_detail3.html"><img src="frontend/images/listing3.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
                             <span class="tag pull-right">$8,600 Per Month</span>
@@ -427,7 +427,7 @@
             <div class="cbp-item latest rent">
                 <div class="property_item">
                     <div class="image">
-                        <a href="property_detail1.html"><img src="images/listing4.jpg" alt="latest property"
+                        <a href="property_detail1.html"><img src="frontend/images/listing4.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
                             <span class="tag pull-right">$8,600 Per Month</span>
@@ -473,7 +473,7 @@
             <div class="cbp-item latest sale">
                 <div class="property_item">
                     <div class="image">
-                        <a href="property_detail2.html"><img src="images/listing8.jpg" alt="latest property"
+                        <a href="property_detail2.html"><img src="frontend/images/listing8.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
                             <span class="solid">Solid Out</span>
@@ -519,7 +519,7 @@
             <div class="cbp-item latest sale">
                 <div class="property_item">
                     <div class="image">
-                        <a href="property_detail3.html"><img src="images/listing6.jpg" alt="latest property"
+                        <a href="property_detail3.html"><img src="frontend/images/listing6.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
                             <span class="tag pull-right">$8,600 Per Month</span>
@@ -566,7 +566,7 @@
             <div class="cbp-item latest rent">
                 <div class="property_item">
                     <div class="image">
-                        <a href="property_detail1.html"><img src="images/listing7.jpg" alt="latest property"
+                        <a href="property_detail1.html"><img src="frontend/images/listing7.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
                             <span class="tag pull-right">$8,600 Per Month</span>
@@ -613,7 +613,7 @@
             <div class="cbp-item latest sale">
                 <div class="property_item">
                     <div class="image">
-                        <a href="property_detail2.html"><img src="images/listing5.jpg" alt="latest property"
+                        <a href="property_detail2.html"><img src="frontend/images/listing5.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
                             <span class="tag pull-right">$8,600 Per Month</span>
@@ -660,7 +660,7 @@
             <div class="cbp-item latest sale">
                 <div class="property_item">
                     <div class="image">
-                        <a href="property_detail3.html"><img src="images/listing9.jpg" alt="latest property"
+                        <a href="property_detail3.html"><img src="frontend/images/listing9.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
                             <span class="tag pull-right">$8,600 Per Month</span>

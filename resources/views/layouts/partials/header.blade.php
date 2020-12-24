@@ -25,7 +25,7 @@
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" data-in="fadeIn" data-out="fadeOut">
                             <li class="nav-item">
-                                <a href="#." class="nav-link">Home </a>
+                                <a href="/" class="nav-link">Home </a>
                                 {{-- <ul class="dropdown-menu">
                                     <li><a href="index-1.html">Home Style 1</a></li>
                                     <li><a href="index2.html">Home Style 2</a></li>
@@ -40,7 +40,7 @@
                                 </ul> --}}
                             </li>
                             <li class="nav-item megamenu-fw">
-                                <a href="#" class="nav-link">Listing</a>
+                                <a href="/" class="nav-link">Listing</a>
                                 {{-- <ul class="dropdown-menu megamenu-content" role="menu">
                                     <li>
                                         <div class="row">
@@ -134,7 +134,7 @@
                                 </ul> --}}
                             </li>
                             <li class="nav-item megamenu-fw">
-                                <a href="#" class="nav-link">Properties</a>
+                                <a href="/" class="nav-link">Properties</a>
                                 {{-- <ul class="dropdown-menu megamenu-content bg" role="menu">
                                     <li>
                                         <div class="row">
@@ -195,7 +195,7 @@
                                 </ul> --}}
                             </li>
                             <li class="nav-item">
-                                <a href="#." class="nav-link">FAQ </a>
+                                <a href="/" class="nav-link">FAQ </a>
                                 {{-- <ul class="dropdown-menu">
                                     <li class="dropdown">
                                         <a href="#." class="dropdown-toggle" data-toggle="dropdown">News</a>
@@ -248,9 +248,9 @@
                                     </li>
                                 </ul> --}}
                             </li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#.">Buy Now</a></li>
+                            <li><a href="/">Contact Us</a></li>
+                            <li><a href="/">About Us</a></li>
+                            <li><a href="/">Buy Now</a></li>
                         </ul>
                     </div>
                 </div>
