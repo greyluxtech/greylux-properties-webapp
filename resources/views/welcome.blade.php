@@ -726,7 +726,7 @@
                 <div class="item">
                     <div class="listing_full">
                         <div class="image">
-                            <img alt="image" src="images/b-d-property.jpg">
+                            <img alt="image" src="frontend/images/b-d-property.jpg">
                             <span class="tag_t">For Sale</span>
                         </div>
                         <div class="listing_full_bg">
@@ -749,7 +749,7 @@
                 <div class="item">
                     <div class="listing_full">
                         <div class="image">
-                            <img alt="image" src="images/b-d-property2.jpg">
+                            <img alt="image" src="frontend/images/b-d-property2.jpg">
                             <span class="tag_t">For Sale</span>
                         </div>
                         <div class="listing_full_bg">
@@ -772,7 +772,7 @@
                 <div class="item">
                     <div class="listing_full">
                         <div class="image">
-                            <img alt="image" src="images/b-d-property3.jpg">
+                            <img alt="image" src="frontend/images/b-d-property3.jpg">
                             <span class="tag_t">For Sale</span>
                         </div>
                         <div class="listing_full_bg">
@@ -795,7 +795,7 @@
                 <div class="item">
                     <div class="listing_full">
                         <div class="image">
-                            <img alt="image" src="images/b-d-property4.jpg">
+                            <img alt="image" src="frontend/images/b-d-property4.jpg">
                             <span class="tag_t">For Sale</span>
                         </div>
                         <div class="listing_full_bg">
@@ -866,7 +866,7 @@
                 <div class="col-sm-4 margin40">
                     <div class="agent_wrap">
                         <div class="image">
-                            <img src="images/agent-one.jpg" alt="Agents">
+                            <img src="frontend/images/agent-one.jpg" alt="Agents">
                             <div class="img-info">
                                 <h3>Bohdan Kononets</h3>
                                 <span>sales executive</span>
@@ -886,8 +886,8 @@
                                 </table>
                                 <hr>
                                 <a class="btn-more" href="agent_profile.html">
-                                    <i><img alt="arrow" src="images/arrow-yellow.png"></i><span>Full
-                                        Profile</span><i><img alt="arrow" src="images/arrow-yellow.png"></i>
+                                    <i><img alt="arrow" src="frontend/images/arrow-yellow.png"></i><span>Full
+                                        Profile</span><i><img alt="arrow" src="frontend/images/arrow-yellow.png"></i>
                                 </a>
                             </div>
                         </div>
@@ -896,7 +896,7 @@
                 <div class="col-sm-4 margin40">
                     <div class="agent_wrap">
                         <div class="image">
-                            <img src="images/agent-five.jpg" alt="Agents">
+                            <img src="frontend/images/agent-five.jpg" alt="Agents">
                             <div class="img-info">
                                 <h3>Bohdan Kononets</h3>
                                 <span>sales executive</span>
@@ -916,8 +916,8 @@
                                 </table>
                                 <hr>
                                 <a class="btn-more" href="agent_profile.html">
-                                    <i><img alt="arrow" src="images/arrow-yellow.png"></i><span>Full
-                                        Profile</span><i><img alt="arrow" src="images/arrow-yellow.png"></i>
+                                    <i><img alt="arrow" src="frontend/images/arrow-yellow.png"></i><span>Full
+                                        Profile</span><i><img alt="arrow" src="frontend/images/arrow-yellow.png"></i>
                                 </a>
                             </div>
                         </div>
@@ -926,7 +926,7 @@
                 <div class="col-sm-4 margin40">
                     <div class="agent_wrap">
                         <div class="image">
-                            <img src="images/agent-six.jpg" alt="Agents">
+                            <img src="frontend/images/agent-six.jpg" alt="Agents">
                             <div class="img-info">
                                 <h3>Bohdan Kononets</h3>
                                 <span>sales executive</span>
@@ -946,8 +946,8 @@
                                 </table>
                                 <hr>
                                 <a class="btn-more" href="agent_profile.html">
-                                    <i><img alt="arrow" src="images/arrow-yellow.png"></i><span>Full
-                                        Profile</span><i><img alt="arrow" src="images/arrow-yellow.png"></i>
+                                    <i><img alt="arrow" src="frontend/images/arrow-yellow.png"></i><span>Full
+                                        Profile</span><i><img alt="arrow" src="frontend/images/arrow-yellow.png"></i>
                                 </a>
                             </div>
                         </div>
@@ -969,10 +969,10 @@
                 <div id="testinomial-slider" class="owl-carousel display navigate">
                     <div class="item">
                         <div class="testinomial_content text-center">
-                            <img src="images/author2.png" alt="happy client" class="bottom15">
+                            <img src="frontend/images/author2.png" alt="happy client" class="bottom15">
                             <h4 class="uppercase"> SAM NICHOLSON</h4>
                             <span class="smmery bottom15">( NorthMarq Capital )</span>
-                            <img src="images/stars.png" alt="rating" class="bottom30">
+                            <img src="frontend/images/stars.png" alt="rating" class="bottom30">
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                                 tempor cum soluta nobis consectetuer adipiscing. Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis
@@ -981,10 +981,10 @@
                     </div>
                     <div class="item">
                         <div class="testinomial_content text-center">
-                            <img src="images/author.png" alt="happy client" class="bottom15">
+                            <img src="frontend/images/author.png" alt="happy client" class="bottom15">
                             <h4 class="uppercase"> SAM NICHOLSON</h4>
                             <span class="smmery bottom15">( NorthMarq Capital )</span>
-                            <img src="images/stars.png" alt="rating" class="bottom30">
+                            <img src="frontend/images/stars.png" alt="rating" class="bottom30">
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                                 tempor cum soluta nobis consectetuer adipiscing. Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis
@@ -993,10 +993,10 @@
                     </div>
                     <div class="item">
                         <div class="testinomial_content text-center">
-                            <img src="images/author2.png" alt="happy client" class="bottom15">
+                            <img src="frontend/images/author2.png" alt="happy client" class="bottom15">
                             <h4 class="uppercase"> SAM NICHOLSON</h4>
                             <span class="smmery bottom15">( NorthMarq Capital )</span>
-                            <img src="images/stars.png" alt="rating" class="bottom30">
+                            <img src="frontend/images/stars.png" alt="rating" class="bottom30">
                             <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
                                 tempor cum soluta nobis consectetuer adipiscing. Lorem ipsum dolor sit amet,
                                 consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis
@@ -1017,55 +1017,54 @@
         <div class="row">
             <div class="col-sm-12 text-center">
                 <h2 class="uppercase">Our Partners</h2>
-                <p class="heading_space">Aliquam nec viverra erat. Aenean elit tellus mattis quis maximus.</p>
             </div>
         </div>
         <div class="row">
             <div id="partners" class="owl-carousel">
                 <div class="item">
-                    <img src="images/logo1.png" alt="Featured Partner">
+                    <img src="frontend/images/logo1.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo2.png" alt="Featured Partner">
+                    <img src="frontend/images/logo2.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo3.png" alt="Featured Partner">
+                    <img src="frontend/images/logo3.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo4.png" alt="Featured Partner">
+                    <img src="frontend/images/logo4.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo5.png" alt="Featured Partner">
+                    <img src="frontend/images/logo5.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo1.png" alt="Featured Partner">
+                    <img src="frontend/images/logo1.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo2.png" alt="Featured Partner">
+                    <img src="frontend/images/logo2.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo3.png" alt="Featured Partner">
+                    <img src="frontend/images/logo3.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo4.png" alt="Featured Partner">
+                    <img src="frontend/images/logo4.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo5.png" alt="Featured Partner">
+                    <img src="frontend/images/logo5.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo1.png" alt="Featured Partner">
+                    <img src="frontend/images/logo1.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo2.png" alt="Featured Partner">
+                    <img src="frontend/images/logo2.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo3.png" alt="Featured Partner">
+                    <img src="frontend/images/logo3.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo4.png" alt="Featured Partner">
+                    <img src="frontend/images/logo4.png" alt="Featured Partner">
                 </div>
                 <div class="item">
-                    <img src="images/logo5.png" alt="Featured Partner">
+                    <img src="frontend/images/logo5.png" alt="Featured Partner">
                 </div>
             </div>
         </div>

@@ -19,238 +19,26 @@
                             data-target="#navbar-menu">
                             <i class="fa fa-bars"></i>
                         </button>
-                        <a class="navbar-brand" href="index6.html"><img src="images/logo.png" class="logo"
-                                alt=""></a>
+                        <a class="navbar-brand" href="/"><img src="{{ asset('images/_.png') }}" class="logo"
+                                alt="" width="100px" height="100px"></a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" data-in="fadeIn" data-out="fadeOut">
                             <li class="nav-item">
                                 <a href="/" class="nav-link">Home </a>
-                                {{-- <ul class="dropdown-menu">
-                                    <li><a href="index-1.html">Home Style 1</a></li>
-                                    <li><a href="index2.html">Home Style 2</a></li>
-                                    <li><a href="index3.html">Home Style 3</a></li>
-                                    <li><a href="index4.html">Home Style 4</a></li>
-                                    <li> <a href="index5.html">Home Style 5</a></li>
-                                    <li> <a href="index6.html">Home Style 6</a></li>
-                                    <li> <a href="index7.html">Home Style 7</a></li>
-                                    <li> <a href="index8.html">Home Style 8</a></li>
-                                    <li> <a href="index9.html">Home Style 9</a></li>
-                                    <li> <a href="fullscreen.html">Home Fullscreen<span>new</span></a></li>
-                                </ul> --}}
                             </li>
                             <li class="nav-item megamenu-fw">
-                                <a href="/" class="nav-link">Listing</a>
-                                {{-- <ul class="dropdown-menu megamenu-content" role="menu">
-                                    <li>
-                                        <div class="row">
-                                            <div class="col-menu col-md-3">
-                                                <h5 class="title">PROPERTIES LIST</h5>
-                                                <div class="content">
-                                                    <ul class="menu-col">
-                                                        <li><a href="listing1.html">Properties List</a></li>
-                                                        <li><a href="index7.html">Single Property</a></li>
-                                                        <li><a href="listing2.html">Search by City</a></li>
-                                                        <li><a href="listing5.html">Search by Category</a></li>
-                                                        <li><a href="listing3.html">Search by Type</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-menu col-md-9">
-                                                <h5 class="title bottom20">PROPERTIES LIST</h5>
-                                                <div class="row">
-                                                    <div id="nav_slider" class="owl-carousel">
-                                                        <div class="item">
-                                                            <div class="image bottom15">
-                                                                <img src="images/nav-slider1.jpg"
-                                                                    alt="Featured Property">
-                                                                <span class="nav_tag yellow text-uppercase">for
-                                                                    rent</span>
-                                                            </div>
-                                                            <h4><a href="property_detail1.html">Park Avenue
-                                                                    Apartment</a></h4>
-                                                            <p>Towson London, MR 21501</p>
-                                                        </div>
-                                                        <div class="item">
-                                                            <div class="image bottom15">
-                                                                <img src="images/nav-slider2.jpg"
-                                                                    alt="Featured Property">
-                                                                <span class="nav_tag yellow text-uppercase">for
-                                                                    rent</span>
-                                                            </div>
-                                                            <h4><a href="property_detail2.html">Park Avenue
-                                                                    Apartment</a></h4>
-                                                            <p>Towson London, MR 21501</p>
-                                                        </div>
-                                                        <div class="item">
-                                                            <div class="image bottom15">
-                                                                <img src="images/nav-slider3.jpg"
-                                                                    alt="Featured Property">
-                                                                <span class="nav_tag yellow text-uppercase">for
-                                                                    rent</span>
-                                                            </div>
-                                                            <h4><a href="property_detail3.html">Park Avenue
-                                                                    Apartment</a></h4>
-                                                            <p>Towson London, MR 21501</p>
-                                                        </div>
-                                                        <div class="item">
-                                                            <div class="image bottom15">
-                                                                <img src="images/nav-slider1.jpg"
-                                                                    alt="Featured Property">
-                                                                <span class="nav_tag yellow text-uppercase">for
-                                                                    rent</span>
-                                                            </div>
-                                                            <h4><a href="property_detail1.html">Park Avenue
-                                                                    Apartment</a></h4>
-                                                            <p>Towson London, MR 21501</p>
-                                                        </div>
-                                                        <div class="item">
-                                                            <div class="image bottom15">
-                                                                <img src="images/nav-slider2.jpg"
-                                                                    alt="Featured Property">
-                                                                <span class="nav_tag yellow text-uppercase">for
-                                                                    rent</span>
-                                                            </div>
-                                                            <h4><a href="property_detail2.html">Park Avenue
-                                                                    Apartment</a></h4>
-                                                            <p>Towson London, MR 21501</p>
-                                                        </div>
-                                                        <div class="item">
-                                                            <div class="image bottom15">
-                                                                <img src="images/nav-slider3.jpg"
-                                                                    alt="Featured Property">
-                                                                <span class="nav_tag yellow text-uppercase">for
-                                                                    rent</span>
-                                                            </div>
-                                                            <h4><a href="property_detail3.html">Park Avenue
-                                                                    Apartment</a></h4>
-                                                            <p>Towson London, MR 21501</p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul> --}}
+                                <a href="/listing" class="nav-link">Listing</a>
                             </li>
                             <li class="nav-item megamenu-fw">
-                                <a href="/" class="nav-link">Properties</a>
-                                {{-- <ul class="dropdown-menu megamenu-content bg" role="menu">
-                                    <li>
-                                        <div class="row">
-                                            <div class="col-menu col-md-3">
-                                                <h5 class="title">PROPERTY LISTINGS</h5>
-                                                <div class="content">
-                                                    <ul class="menu-col">
-                                                        <li><a href="listing1.html">List Style 1</a></li>
-                                                        <li><a href="listing2.html">List Style 2</a></li>
-                                                        <li><a href="listing3.html">List Style 3</a></li>
-                                                        <li><a href="listing4.html">List Style 4</a></li>
-                                                        <li><a href="listing5.html">List Style 5</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-menu col-md-3">
-                                                <h5 class="title">PROPERTY LISTINGS</h5>
-                                                <div class="content">
-                                                    <ul class="menu-col">
-                                                        <li><a href="listing6.html">List Style 5</a></li>
-                                                        <li><a href="listing7.html">List Style 6</a></li>
-                                                        <li><a href="listing1.html">Search by City</a></li>
-                                                        <li><a href="listing2.html">Search by Category</a></li>
-                                                        <li><a href="listing3.html">Search by Type</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-menu col-md-3">
-                                                <h5 class="title">PROPERTY DETAIL</h5>
-                                                <div class="content">
-                                                    <ul class="menu-col">
-                                                        <li><a href="property_detail1.html">Property Detail 1</a>
-                                                        </li>
-                                                        <li><a href="property_detail2.html">Property Detail 2</a>
-                                                        </li>
-                                                        <li><a href="property_detail3.html">Property Detail 3</a>
-                                                        </li>
-                                                        <li><a href="index7.html">Single Property</a></li>
-                                                        <li><a href="listing4.html">Search by Type</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                            <div class="col-menu col-md-3">
-                                                <h5 class="title">OTHER PAGES</h5>
-                                                <div class="content">
-                                                    <ul class="menu-col">
-                                                        <li><a href="favorite_properties.html">Favorite
-                                                                Properties</a></li>
-                                                        <li><a href="agent_profile.html">Agent Profile</a></li>
-                                                        <li><a href="404.html">404 Error</a></li>
-                                                        <li><a href="contact.html">Contact Us</a></li>
-                                                        <li><a href="testimonial.html">Testimonials</a></li>
-                                                    </ul>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </li>
-                                </ul> --}}
+                                <a href="/property" class="nav-link">Properties</a>
                             </li>
                             <li class="nav-item">
-                                <a href="/" class="nav-link">FAQ </a>
-                                {{-- <ul class="dropdown-menu">
-                                    <li class="dropdown">
-                                        <a href="#." class="dropdown-toggle" data-toggle="dropdown">News</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="news.html">news Style1</a></li>
-                                            <li><a href="news2.html">news Style2<span>new</span></a></li>
-                                            <li><a href="news3.html">news Style3<span>new</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#." class="dropdown-toggle" data-toggle="dropdown">Property
-                                            Agents</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="agent1.html">Agent Style1</a></li>
-                                            <li><a href="agent2.html">Agent Style2</a></li>
-                                            <li><a href="agent3.html">Agent Style3<span>new</span></a></li>
-                                            <li><a href="agent4.htm4">Agent Style4<span>new</span></a></li>
-                                            <li><a href="agent5.htm5">Agent Style5<span>new</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#." class="dropdown-toggle" data-toggle="dropdown">Agetn Profile
-                                            Styles</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="agent_profile.html">Agent Profile 1</a></li>
-                                            <li><a href="agent_profile2.html">Agent Profile 2</a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#." class="dropdown-toggle" data-toggle="dropdown">Testimonials</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="testimonial.html">Style 1</a></li>
-                                            <li><a href="testimonial2.html">Style 2<span>new</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li class="dropdown">
-                                        <a href="#." class="dropdown-toggle" data-toggle="dropdown">FAQ's</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="faq.html">Style 1</a></li>
-                                            <li><a href="faq2.html">Style 2<span>new</span></a></li>
-                                        </ul>
-                                    </li>
-                                    <li><a href="favorite_properties.html">Favorite Properties</a></li>
-                                    <li class="dropdown">
-                                        <a href="#." class="dropdown-toggle" data-toggle="dropdown">404 Error</a>
-                                        <ul class="dropdown-menu">
-                                            <li><a href="404.html">404 Error 1</a></li>
-                                            <li><a href="404-2.html">404 Error 2<span>new</span></a></li>
-                                        </ul>
-                                    </li>
-                                </ul> --}}
+                                <a href="/faq" class="nav-link">FAQ </a>
                             </li>
-                            <li><a href="/">Contact Us</a></li>
-                            <li><a href="/">About Us</a></li>
-                            <li><a href="/">Buy Now</a></li>
+                            <li><a href="/contact">Contact Us</a></li>
+                            <li><a href="/about">About Us</a></li>
+                            <li><a href="/buy">Buy Now</a></li>
                         </ul>
                     </div>
                 </div>
