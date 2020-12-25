@@ -476,7 +476,7 @@
                         <a href="property_detail2.html"><img src="frontend/images/listing8.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
-                            <span class="solid">Solid Out</span>
+                            <span class="solid">Sold Out</span>
                         </div>
                         <span class="tag_t">For Sale</span>
                     </div>
@@ -732,14 +732,14 @@
                             <div class="listing_inner_full">
                                 <span><a href="#"><i class="icon-like"></i></a></span>
                                 <a href="property_detail1.html">
-                                    <h3>Park Avenue Apartment</h3>
-                                    <p>Towson London, MR 21501</p>
+                                    <h3>5 BEDROOM DETACHED DUPLEX</h3>
+                                    <p>Ikate Lekki Lagos</p>
                                 </a>
                                 <div class="favroute clearfix">
                                     <div class="property_meta"><span><i class="icon-select-an-objecto-tool"></i>4800
-                                            sq ft</span><span><i class=" icon-bed"></i>3 Bedrooms</span><span><i
-                                                class="icon-safety-shower"></i>2 Bedrooms</span><span
-                                            class="border-l">₦38,600 / pm</span></div>
+                                            sq ft</span><span><i class=" icon-bed"></i>5 Bedrooms</span><span><i
+                                                class="icon-safety-shower"></i>5 Bathroom</span><span
+                                            class="border-l">₦ 90,000,000</span></div>
                                 </div>
                             </div>
                         </div>
@@ -755,14 +755,14 @@
                             <div class="listing_inner_full">
                                 <span><a href="#"><i class="icon-like"></i></a></span>
                                 <a href="property_detail2.html">
-                                    <h3>Park Avenue Apartment</h3>
-                                    <p>Towson London, MR 21501</p>
+                                    <h3>5 BEDROOM DETACHED DUPLEX</h3>
+                                    <p>Atlantic Layout EstateAjiwe Ajah Lagos</p>
                                 </a>
                                 <div class="favroute clearfix">
                                     <div class="property_meta"><span><i class="icon-select-an-objecto-tool"></i>4800
-                                            sq ft</span><span><i class=" icon-bed"></i>3 Bedrooms</span><span><i
-                                                class="icon-safety-shower"></i>2 Bedrooms</span><span
-                                            class="border-l">₦38,600 / pm</span></div>
+                                            sq ft</span><span><i class=" icon-bed"></i>5 Bedrooms</span><span><i
+                                                class="icon-safety-shower"></i>5 Bathroom</span><span
+                                            class="border-l">₦ 55,000,000                                        </span></div>
                                 </div>
                             </div>
                         </div>
@@ -778,14 +778,14 @@
                             <div class="listing_inner_full">
                                 <span><a href="#"><i class="icon-like"></i></a></span>
                                 <a href="property_detail3.html">
-                                    <h3>Park Avenue Apartment</h3>
-                                    <p>Towson London, MR 21501</p>
+                                    <h3>4 BEDROOM PENTHOUSE FLAT</h3>
+                                    <p>Easter Lilly Penthouse B Prime, Water Gardens Estate 2, Lekki Phase 1,Lagos</p>
                                 </a>
                                 <div class="favroute clearfix">
                                     <div class="property_meta"><span><i class="icon-select-an-objecto-tool"></i>4800
-                                            sq ft</span><span><i class=" icon-bed"></i>3 Bedrooms</span><span><i
-                                                class="icon-safety-shower"></i>2 Bedrooms</span><span
-                                            class="border-l">₦38,600 / pm</span></div>
+                                            sq ft</span><span><i class=" icon-bed"></i>4 Bedrooms</span><span><i
+                                                class="icon-safety-shower"></i>3 Bathroom</span><span
+                                            class="border-l">₦ 75,000,000</span></div>
                                 </div>
                             </div>
                         </div>
@@ -801,14 +801,14 @@
                             <div class="listing_inner_full">
                                 <span><a href="#"><i class="icon-like"></i></a></span>
                                 <a href="property_detail1.html">
-                                    <h3>Park Avenue Apartment</h3>
-                                    <p>Towson London, MR 21501</p>
+                                    <h3>1 BEDROOM MINI FLAT</h3>
+                                    <p>Taiye Olowu Street Off Victoria Arobieke Lekki Phase 1 Lagos</p>
                                 </a>
                                 <div class="favroute clearfix">
                                     <div class="property_meta"><span><i class="icon-select-an-objecto-tool"></i>4800
-                                            sq ft</span><span><i class=" icon-bed"></i>3 Bedrooms</span><span><i
-                                                class="icon-safety-shower"></i>2 Bedrooms</span><span
-                                            class="border-l">₦38,600 / pm</span></div>
+                                            sq ft</span><span><i class=" icon-bed"></i>1 Bedroom</span><span><i
+                                                class="icon-safety-shower"></i>1 Bathroom</span><span
+                                            class="border-l">₦ 50,000,000</span></div>
                                 </div>
                             </div>
                         </div>
@@ -826,21 +826,19 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 bottom30">
-                <h2 class="uppercase">Over then <strong>7000</strong> Happy Customer</h2>
+                <h2 class="uppercase">Over <strong>1000</strong> Happy Customers</h2>
             </div>
             <div class="col-sm-8 col-md-10">
                 <div class="row">
                     <div class="col-sm-6 margin40">
-                        <i class="icon-presentation"></i>
-                        <h4 class="bottom10">Good Sale & Marketing</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam power nonummy nibh
-                            tempor cum soluta nobis eleifend.</p>
+                        <i class="icon-icons215"></i>
+                        <h4 class="bottom10">Good Sales</h4>
+                        <p>In GreyLux Property, we are known for good and fraud-free sales, We handle every property under our platform with transparency and integrity.</p>
                     </div>
                     <div class="col-sm-6 margin40">
-                        <i class="icon-icons215"></i>
-                        <h4 class="bottom10">Good Sale & Marketing</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam power nonummy nibh
-                            tempor cum soluta nobis eleifend.</p>
+                        <i class="icon-presentation"></i>
+                        <h4 class="bottom10">Good Marketing</h4>
+                        <p>GreyLux is known to have a lot of sales since we were established, Property owners trust us with their property and we have had a lot of good sales too through our strong marketing schemes.</p>
                     </div>
                 </div>
             </div>
@@ -854,10 +852,8 @@
 <section id="testinomialBg" class="padding bg_light">
     <div class="container bg_white padding">
         <div class="row">
-            <div class="col-xs-12 text-center">
-                <h2 class="uppercase">Happy Customers</h2>
-                <p class="heading_space">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec
-                    viverra erat Aenean elit tellus.</p>
+            <div class="col-xs-12 text-center bottom30">
+                <h2 class="uppercase">Our Happy Customers</h2>
             </div>
         </div>
         <div class="row">
@@ -865,38 +861,16 @@
                 <div id="testinomial-slider" class="owl-carousel display navigate">
                     <div class="item">
                         <div class="testinomial_content text-center">
-                            <img src="frontend/images/author2.png" alt="happy client" class="bottom15">
-                            <h4 class="uppercase"> SAM NICHOLSON</h4>
-                            <span class="smmery bottom15">( NorthMarq Capital )</span>
-                            <img src="frontend/images/stars.png" alt="rating" class="bottom30">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                tempor cum soluta nobis consectetuer adipiscing. Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis
-                                fermentum sem, ac viverra ante luctus vel.</p>
+                            <img src="frontend/images/fam.jpg" alt="happy client" class="testimonial-img bottom15">
+                            <h4 class="uppercase bottom15"> SAM Nick</h4>
+                            <p>I will recommend GreyLux Anytime, Anyday for your property purchase or rentage, They offer you the best Marketplace for your properties.</p>
                         </div>
                     </div>
                     <div class="item">
                         <div class="testinomial_content text-center">
-                            <img src="frontend/images/author.png" alt="happy client" class="bottom15">
-                            <h4 class="uppercase"> SAM NICHOLSON</h4>
-                            <span class="smmery bottom15">( NorthMarq Capital )</span>
-                            <img src="frontend/images/stars.png" alt="rating" class="bottom30">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                tempor cum soluta nobis consectetuer adipiscing. Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis
-                                fermentum sem, ac viverra ante luctus vel.</p>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="testinomial_content text-center">
-                            <img src="frontend/images/author2.png" alt="happy client" class="bottom15">
-                            <h4 class="uppercase"> SAM NICHOLSON</h4>
-                            <span class="smmery bottom15">( NorthMarq Capital )</span>
-                            <img src="frontend/images/stars.png" alt="rating" class="bottom30">
-                            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh
-                                tempor cum soluta nobis consectetuer adipiscing. Lorem ipsum dolor sit amet,
-                                consectetur adipiscing elit. Nulla convallis egestas rhoncus. Donec facilisis
-                                fermentum sem, ac viverra ante luctus vel.</p>
+                            <img src="frontend/images/family.jpg" alt="happy client" class="testimonial-img bottom15">
+                            <h4 class="uppercase bottom15"> Mr and Mrs Adebayo</h4>
+                            <p>I will start by saying Thank you GreyLux for not just finding house for us but also giving us a home that suits our family now and in the future.</p>
                         </div>
                     </div>
                 </div>
@@ -908,7 +882,7 @@
 
 
 <!--Partners-->
-<section id="logos">
+{{-- <section id="logos">
     <div class="container partner2 padding">
         <div class="row">
             <div class="col-sm-12 text-center">
@@ -965,6 +939,6 @@
             </div>
         </div>
     </div>
-</section>
+</section> --}}
 <!--Partners Ends-->
     @endsection
