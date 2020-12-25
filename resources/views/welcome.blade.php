@@ -613,8 +613,7 @@
             <div class="cbp-item latest sale">
                 <div class="property_item">
                     <div class="image">
-                        <a href="property_detail2.html"><img src="frontend/images/listing5.jpg" alt="latest property"
-                                class="img-responsive"></a>
+                        <a href="property_detail2.html"><img src="frontend/images/listing10.jpg" height="300px" alt="latest property"></a>
                         <div class="price clearfix">
                             <span class="tag pull-right">₦ 3, 500, 000, 000</span>
                         </div>
