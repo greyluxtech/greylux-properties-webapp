@@ -290,20 +290,20 @@
                         <a href="property_detail1.html"><img src="frontend/images/listing1.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
-                            <span class="tag pull-right">$8,600 Per Month</span>
+                            <span class="tag pull-right">₦ 23, 000, 000</span>
                         </div>
                         <span class="tag_t">For Sale</span>
                         <span class="tag_l">Featured</span>
                     </div>
                     <div class="proerty_content">
                         <div class="proerty_text">
-                            <h3 class="captlize"><a href="property_detail1.html">Park avenue apartment</a></h3>
-                            <p>45 Regent Street, London, UK</p>
+                            <h3 class="captlize"><a href="property_detail1.html">2 BEDROOM BLOCKS OF FLATS</a></h3>
+                            <p>Ajah Lagos</p>
                         </div>
                         <div class="property_meta transparent">
                             <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span>
                             <span><i class="icon-bed"></i>2 Office Rooms</span>
-                            <span><i class="icon-safety-shower"></i>1 Bathroom</span>
+                            <span><i class="icon-safety-shower"></i>3 Bathroom</span>
                         </div>
                         <div class="property_meta transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
@@ -337,19 +337,19 @@
                         <a href="property_detail2.html"><img src="frontend/images/listing2.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
-                            <span class="tag pull-right">$8,600 Per Month</span>
+                            <span class="tag pull-right">₦ 14, 000, 000 Per Year</span>
                         </div>
                         <span class="tag_t">For Rent</span>
                     </div>
                     <div class="proerty_content">
                         <div class="proerty_text">
-                            <h3 class="captlize"><a href="property_detail2.html">Park avenue apartment</a></h3>
-                            <p>45 Regent Street, London, UK</p>
+                            <h3 class="captlize"><a href="property_detail2.html">4 BEDROOM FLAT</a></h3>
+                            <p>Old Ikoyi Ikoyi Lagos</p>
                         </div>
                         <div class="property_meta transparent">
                             <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span>
-                            <span><i class="icon-bed"></i>2 Office Rooms</span>
-                            <span><i class="icon-safety-shower"></i>1 Bathroom</span>
+                            <span><i class="icon-bed"></i>4 Rooms</span>
+                            <span><i class="icon-safety-shower"></i>4 Bathroom</span>
                         </div>
                         <div class="property_meta transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
@@ -383,20 +383,20 @@
                         <a href="property_detail3.html"><img src="frontend/images/listing3.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
-                            <span class="tag pull-right">$8,600 Per Month</span>
+                            <span class="tag pull-right">₦ 130, 000, 000</span>
                         </div>
                         <span class="tag_t">For Sale</span>
                         <span class="tag_l">Featured</span>
                     </div>
                     <div class="proerty_content">
                         <div class="proerty_text">
-                            <h3 class="captlize"><a href="property_detail3.html">Park avenue apartment</a></h3>
-                            <p>45 Regent Street, London, UK</p>
+                            <h3 class="captlize"><a href="property_detail3.html">5 BEDROOM DETACHED DUPLEX </a></h3>
+                            <p>Karsana Abuja</p>
                         </div>
                         <div class="property_meta transparent">
                             <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span>
-                            <span><i class="icon-bed"></i>2 Office Rooms</span>
-                            <span><i class="icon-safety-shower"></i>1 Bathroom</span>
+                            <span><i class="icon-bed"></i>5 Rooms</span>
+                            <span><i class="icon-safety-shower"></i>6 Bathroom</span>
                         </div>
                         <div class="property_meta transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
@@ -430,19 +430,19 @@
                         <a href="property_detail1.html"><img src="frontend/images/listing4.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
-                            <span class="tag pull-right">$8,600 Per Month</span>
+                            <span class="tag pull-right">₦1, 200, 000 Per Year</span>
                         </div>
                         <span class="tag_t">For Rent</span>
                     </div>
                     <div class="proerty_content">
                         <div class="proerty_text">
-                            <h3 class="captlize"><a href="property_detail1.html">Park avenue apartment</a></h3>
-                            <p>45 Regent Street, London, UK</p>
+                            <h3 class="captlize"><a href="property_detail1.html">2 BEDROOM BLOCKS OF FLATS</a></h3>
+                            <p>Close to Chris EmbassyDurumi Abuja</p>
                         </div>
                         <div class="property_meta transparent">
                             <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span>
                             <span><i class="icon-bed"></i>2 Office Rooms</span>
-                            <span><i class="icon-safety-shower"></i>1 Bathroom</span>
+                            <span><i class="icon-safety-shower"></i>2 Bathroom</span>
                         </div>
                         <div class="property_meta transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
@@ -482,13 +482,13 @@
                     </div>
                     <div class="proerty_content">
                         <div class="proerty_text">
-                            <h3 class="captlize"><a href="property_detail2.html">Park avenue apartment</a></h3>
-                            <p>45 Regent Street, London, UK</p>
+                            <h3 class="captlize"><a href="property_detail2.html">5 BEDROOM DETACHED DUPLEX</a></h3>
+                            <p>Karsana Abuja</p>
                         </div>
                         <div class="property_meta transparent">
                             <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span>
-                            <span><i class="icon-bed"></i>2 Office Rooms</span>
-                            <span><i class="icon-safety-shower"></i>1 Bathroom</span>
+                            <span><i class="icon-bed"></i>5 Rooms</span>
+                            <span><i class="icon-safety-shower"></i>6 Bathroom</span>
                         </div>
                         <div class="property_meta transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
@@ -522,20 +522,20 @@
                         <a href="property_detail3.html"><img src="frontend/images/listing6.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
-                            <span class="tag pull-right">$8,600 Per Month</span>
+                            <span class="tag pull-right">₦ 55, 000, 000</span>
                         </div>
                         <span class="tag_t">For Sale</span>
                         <span class="tag_l">Featured</span>
                     </div>
                     <div class="proerty_content">
                         <div class="proerty_text">
-                            <h3 class="captlize"><a href="property_detail3.html">Park avenue apartment</a></h3>
-                            <p>45 Regent Street, London, UK</p>
+                            <h3 class="captlize"><a href="property_detail3.html">4 BEDROOM HOUSE</a></h3>
+                            <p>Jahi Abuja</p>
                         </div>
                         <div class="property_meta transparent">
                             <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span>
-                            <span><i class="icon-bed"></i>2 Office Rooms</span>
-                            <span><i class="icon-safety-shower"></i>1 Bathroom</span>
+                            <span><i class="icon-bed"></i>4 Office Rooms</span>
+                            <span><i class="icon-safety-shower"></i>5 Bathroom</span>
                         </div>
                         <div class="property_meta transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
@@ -569,20 +569,20 @@
                         <a href="property_detail1.html"><img src="frontend/images/listing7.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
-                            <span class="tag pull-right">$8,600 Per Month</span>
+                            <span class="tag pull-right">₦ 4, 500, 000 Per Year</span>
                         </div>
                         <span class="tag_t">For Rent</span>
                         <span class="tag_l">Featured</span>
                     </div>
                     <div class="proerty_content">
                         <div class="proerty_text">
-                            <h3 class="captlize"><a href="property_detail1.html">Park avenue apartment</a></h3>
-                            <p>45 Regent Street, London, UK</p>
+                            <h3 class="captlize"><a href="property_detail1.html">3 BEDROOM TERRACED DUPLEX</a></h3>
+                            <p>Close to NNPC Fuel StationGuzape Abuja</p>
                         </div>
                         <div class="property_meta transparent">
                             <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span>
-                            <span><i class="icon-bed"></i>2 Office Rooms</span>
-                            <span><i class="icon-safety-shower"></i>1 Bathroom</span>
+                            <span><i class="icon-bed"></i>3 Rooms</span>
+                            <span><i class="icon-safety-shower"></i>3 Bathroom</span>
                         </div>
                         <div class="property_meta transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
@@ -616,24 +616,24 @@
                         <a href="property_detail2.html"><img src="frontend/images/listing5.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
-                            <span class="tag pull-right">$8,600 Per Month</span>
+                            <span class="tag pull-right">₦ 3, 500, 000, 000</span>
                         </div>
                         <span class="tag_t">For Sale</span>
                         <span class="tag_l">Featured</span>
                     </div>
                     <div class="proerty_content">
                         <div class="proerty_text">
-                            <h3 class="captlize"><a href="property_detail2.html">Park avenue apartment</a></h3>
-                            <p>45 Regent Street, London, UK</p>
+                            <h3 class="captlize"><a href="property_detail2.html">TANK FARM COMMERCIAL PROPERTY</a></h3>
+                            <p>Coconut Tin Can Apapa Lagos</p>
                         </div>
                         <div class="property_meta transparent">
                             <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span>
-                            <span><i class="icon-bed"></i>2 Office Rooms</span>
-                            <span><i class="icon-safety-shower"></i>1 Bathroom</span>
+                            <span><i class="icon-bed"></i> Rooms</span>
+                            <span><i class="icon-safety-shower"></i> Bathroom</span>
                         </div>
                         <div class="property_meta transparent bottom30">
-                            <span><i class="icon-old-television"></i>TV Lounge</span>
-                            <span><i class="icon-garage"></i>1 Garage</span>
+                            {{-- <span><i class="icon-old-television"></i>TV Lounge</span> --}}
+                            <span><i class="icon-garage"></i> Garage</span>
                             <span></span>
                         </div>
                         <div class="favroute clearfix">
@@ -663,23 +663,23 @@
                         <a href="property_detail3.html"><img src="frontend/images/listing9.jpg" alt="latest property"
                                 class="img-responsive"></a>
                         <div class="price clearfix">
-                            <span class="tag pull-right">$8,600 Per Month</span>
+                            <span class="tag pull-right">₦10, 500, 000</span>
                         </div>
                         <span class="tag_t">For Sale</span>
                     </div>
                     <div class="proerty_content">
                         <div class="proerty_text">
-                            <h3 class="captlize"><a href="property_detail3.html">Park avenue apartment</a></h3>
-                            <p>45 Regent Street, London, UK</p>
+                            <h3 class="captlize"><a href="property_detail3.html">SERVICED RESIDENTIAL LAND</a></h3>
+                            <p>Inside the popular Amity estate, Sangotedo Lago</p>
                         </div>
                         <div class="property_meta transparent">
                             <span><i class="icon-select-an-objecto-tool"></i>4800 sq ft</span>
-                            <span><i class="icon-bed"></i>2 Office Rooms</span>
-                            <span><i class="icon-safety-shower"></i>1 Bathroom</span>
+                            <span><i class="icon-bed"></i> Rooms</span>
+                            <span><i class="icon-safety-shower"></i> Bathroom</span>
                         </div>
                         <div class="property_meta transparent bottom30">
-                            <span><i class="icon-old-television"></i>TV Lounge</span>
-                            <span><i class="icon-garage"></i>1 Garage</span>
+                            {{-- <span><i class="icon-old-television"></i>TV Lounge</span> --}}
+                            <span><i class="icon-garage"></i> Garage</span>
                             <span></span>
                         </div>
                         <div class="favroute clearfix">
@@ -705,7 +705,7 @@
             </div>
         </div>
         <div class="col-sm-12 text-center top20">
-            <a href="listing1.html" class="btn-dark border_radius uppercase margin40">more listings</a>
+            <a href="/" class="btn-dark border_radius uppercase margin40">more listings</a>
         </div>
     </div>
 </section>
@@ -740,7 +740,7 @@
                                     <div class="property_meta"><span><i class="icon-select-an-objecto-tool"></i>4800
                                             sq ft</span><span><i class=" icon-bed"></i>3 Bedrooms</span><span><i
                                                 class="icon-safety-shower"></i>2 Bedrooms</span><span
-                                            class="border-l">$38,600 / pm</span></div>
+                                            class="border-l">₦38,600 / pm</span></div>
                                 </div>
                             </div>
                         </div>
@@ -763,7 +763,7 @@
                                     <div class="property_meta"><span><i class="icon-select-an-objecto-tool"></i>4800
                                             sq ft</span><span><i class=" icon-bed"></i>3 Bedrooms</span><span><i
                                                 class="icon-safety-shower"></i>2 Bedrooms</span><span
-                                            class="border-l">$38,600 / pm</span></div>
+                                            class="border-l">₦38,600 / pm</span></div>
                                 </div>
                             </div>
                         </div>
@@ -786,7 +786,7 @@
                                     <div class="property_meta"><span><i class="icon-select-an-objecto-tool"></i>4800
                                             sq ft</span><span><i class=" icon-bed"></i>3 Bedrooms</span><span><i
                                                 class="icon-safety-shower"></i>2 Bedrooms</span><span
-                                            class="border-l">$38,600 / pm</span></div>
+                                            class="border-l">₦38,600 / pm</span></div>
                                 </div>
                             </div>
                         </div>
@@ -809,7 +809,7 @@
                                     <div class="property_meta"><span><i class="icon-select-an-objecto-tool"></i>4800
                                             sq ft</span><span><i class=" icon-bed"></i>3 Bedrooms</span><span><i
                                                 class="icon-safety-shower"></i>2 Bedrooms</span><span
-                                            class="border-l">$38,600 / pm</span></div>
+                                            class="border-l">₦38,600 / pm</span></div>
                                 </div>
                             </div>
                         </div>
@@ -853,109 +853,6 @@
 
 <!--Testinomials-->
 <section id="testinomialBg" class="padding bg_light">
-    <div id="agent-2" class="padding_bottom">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12 text-center">
-                    <h2 class="uppercase">AGENTS YOU CAN TRUST</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nec viverra erat Aenean elit
-                        tellus.</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-4 margin40">
-                    <div class="agent_wrap">
-                        <div class="image">
-                            <img src="frontend/images/agent-one.jpg" alt="Agents">
-                            <div class="img-info">
-                                <h3>Bohdan Kononets</h3>
-                                <span>sales executive</span>
-                                <p class="top20 bottom30">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                    sed diam nonummy nibh tempor cum soluta nobis consectetuer.</p>
-                                <table class="agent_contact table">
-                                    <tbody>
-                                        <tr class="bottom10">
-                                            <td><strong>Phone:</strong></td>
-                                            <td class="text-right">(+01) 34 56 7890</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Email Adress:</strong></td>
-                                            <td class="text-right"><a href="#.">bohdan@castle.com</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <hr>
-                                <a class="btn-more" href="agent_profile.html">
-                                    <i><img alt="arrow" src="frontend/images/arrow-yellow.png"></i><span>Full
-                                        Profile</span><i><img alt="arrow" src="frontend/images/arrow-yellow.png"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 margin40">
-                    <div class="agent_wrap">
-                        <div class="image">
-                            <img src="frontend/images/agent-five.jpg" alt="Agents">
-                            <div class="img-info">
-                                <h3>Bohdan Kononets</h3>
-                                <span>sales executive</span>
-                                <p class="top20 bottom30">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                    sed diam nonummy nibh tempor cum soluta nobis consectetuer.</p>
-                                <table class="agent_contact table">
-                                    <tbody>
-                                        <tr class="bottom10">
-                                            <td><strong>Phone:</strong></td>
-                                            <td class="text-right">(+01) 34 56 7890</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Email Adress:</strong></td>
-                                            <td class="text-right"><a href="#.">bohdan@castle.com</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <hr>
-                                <a class="btn-more" href="agent_profile.html">
-                                    <i><img alt="arrow" src="frontend/images/arrow-yellow.png"></i><span>Full
-                                        Profile</span><i><img alt="arrow" src="frontend/images/arrow-yellow.png"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-4 margin40">
-                    <div class="agent_wrap">
-                        <div class="image">
-                            <img src="frontend/images/agent-six.jpg" alt="Agents">
-                            <div class="img-info">
-                                <h3>Bohdan Kononets</h3>
-                                <span>sales executive</span>
-                                <p class="top20 bottom30">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
-                                    sed diam nonummy nibh tempor cum soluta nobis consectetuer.</p>
-                                <table class="agent_contact table">
-                                    <tbody>
-                                        <tr class="bottom10">
-                                            <td><strong>Phone:</strong></td>
-                                            <td class="text-right">(+01) 34 56 7890</td>
-                                        </tr>
-                                        <tr>
-                                            <td><strong>Email Adress:</strong></td>
-                                            <td class="text-right"><a href="#.">bohdan@castle.com</a></td>
-                                        </tr>
-                                    </tbody>
-                                </table>
-                                <hr>
-                                <a class="btn-more" href="agent_profile.html">
-                                    <i><img alt="arrow" src="frontend/images/arrow-yellow.png"></i><span>Full
-                                        Profile</span><i><img alt="arrow" src="frontend/images/arrow-yellow.png"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="container bg_white padding">
         <div class="row">
             <div class="col-xs-12 text-center">
