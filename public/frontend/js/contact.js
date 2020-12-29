@@ -17,49 +17,36 @@
 //     });    
 
     let submitButton = document.getElementById('submit');
-    let nameField = document.getElementById('firstname');
-    let firstname = document.getElementById('firstname');
-    let lastname = document.getElementById('lastname');
-    let email = document.getElementById('email');
-    let subject = document.getElementById('subject');
-    let message = document.getElementById('message');
-    let token = document.getElementsByName('_token').value;
-    let data ={
-        firstname:firstname,
-        lastname:lastname,
-        email:email,
-        subject:subject,
-        message:message
-    }
+  
 
 
     submitButton.addEventListener('click',(e)=>{
         e.preventDefault();
-        nameField.focus();
+       
         let token = document.getElementById("contactUsForm").querySelectorAll('input')[0].value;
-        console.log(token)
-        // const token = document.querySelector("_token").value;
-        // console.log(token);
-        //  const token = '{{ csrf_token() }}'
-        // let group_id = $(this).val();
+        let firstname = document.getElementById('firstname').value;
+        let lastname = document.getElementById('lastname').value;
+        let email = document.getElementById('email').value;
+        let subject = document.getElementById('subject').value;
+        let message = document.getElementById('message').value;
+        let data ={
+            'firstname':firstname,
+            'lastname':lastname,
+            'email':email,
+            'subject':subject,
+            'message':message
+        }
+
         fetch('/saveContact', {
             headers: {
                 'X-CSRF-TOKEN': token
             },
             method: 'POST',
             credentials: "same-origin",
-            body: data
-          }).then(function(response){
-              console.log('response');
-              console.log(response)
-                // return response.json();
-
-            }).then(function(json){
-     
-              // change course
-     
-            }).catch((error)=>{
-     
-     
+            body:JSON.stringify(data)
+          }).then(res=>res.json()).then(data=>{
+              console.log(data);
+          }).catch((error)=>{
+            console.log(error);
               })
     })

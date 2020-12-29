@@ -9,11 +9,14 @@ class ContactController extends Controller
 {
 
     public function displayContact() { 
-        return view('contact'); 
+      
+     return view('contact'); 
     }
     //save user contact message and send mail
     public function saveContact(Request $request) { 
-        $this->validate($request, [
+        try{
+            $name = $request->input('firstname');
+ $this->validate($request, [
             'firstname' => 'required',
             'lastname' => 'required',
             'email' => 'required|email',
@@ -21,16 +24,6 @@ class ContactController extends Controller
             'phone_number' => 'required',
             'message' => 'required'
         ]);
-
-        $contact = new Contact;
-        $contact->firsname = $request->firstname;
-        $contact->lastname = $request->lastname;
-        $contact->email = $request->email;
-        $contact->subject = $request->subject;
-        $contact->message = $request->message;
-
-        $contact->save();
-
         \Mail::send('contact_email',
              array(
                  'firstname' => $request->get('firsname'),
@@ -44,8 +37,10 @@ class ContactController extends Controller
                   $message->from($request->email);
                   $message->to('obochi2@gmail.com');
                });
-
-          return back()->with('failure', 'Thank you for contact us!');
-            }
+        return response()->json(['report'=> $name]);
+        }catch(Exception $e){
+            return response()->json(['report'=>$e->getMessage()]);
+        }
+    }
 
 }
