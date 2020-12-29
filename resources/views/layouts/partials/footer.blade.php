@@ -7,7 +7,7 @@
                     <div class="icons"><i class="icon-telephone114"></i></div>
                     <ul class="text-center">
                         <li><strong>Phone Number</strong></li>
-                        <li>+1 900 234 567 - 68</li>
+                        <li>+2347013669823</li>
                     </ul>
                 </div>
             </div>
@@ -15,8 +15,8 @@
                 <div class="info-box">
                     <div class="icons"><i class="icon-icons74"></i></div>
                     <ul class="text-center">
-                        <li><strong>Manhattan Hall,</strong></li>
-                        <li>Castle Melbourne, australia</li>
+                        <li><strong>A Close, 5th Avenue</strong></li>
+                        <li>Gwarimpa Estate,Abuja, Nigeria.</li>
                     </ul>
                 </div>
             </div>
@@ -25,7 +25,7 @@
                     <div class="icons"><i class="icon-icons142"></i></div>
                     <ul class="text-center">
                         <li><strong>Email Address</strong></li>
-                        <li><a href="#.">info@castle.com</a></li>
+                        <li><a href="#.">contact@greyluxassets.com</a></li>
                     </ul>
                 </div>
             </div>
@@ -108,7 +108,7 @@
         <div class="copyright_simple">
             <div class="row">
                 <div class="col-md-6 col-sm-5 top20 bottom20">
-                    <p>Copyright &copy; 2017 <span>Castle</span>. All rights reserved.</p>
+                    <p>Copyright &copy; 2021 <span>GreyLux Properties ltd</span>. All rights reserved.</p>
                 </div>
                 <div class="col-md-6 col-sm-7 text-right top15 bottom10">
                     <ul class="social_share">
