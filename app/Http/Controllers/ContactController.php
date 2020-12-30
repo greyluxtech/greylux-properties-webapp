@@ -40,14 +40,6 @@ class ContactController extends Controller
             $contact->message = $request->message;
             $contact->save();
 
-//  $this->validate($request, [
-//             'firstname' => 'required',
-//             'lastname' => 'required',
-//             'email' => 'required|email',
-//             'subject' => 'required',
-//             'phone_number' => 'required',
-//             'message' => 'required'
-//         ]);
         // \Mail::send(
         //      array(
         //          'firstname' => $request->firstname,
@@ -61,7 +53,7 @@ class ContactController extends Controller
         //           $message->from($request->email);
         //           $message->to('obochi2@gmail.com');
         //        });
-        return response()->json(['report'=>    $firstname ]);
+        return response()->json(['report'=> 'Message sent sucessfully' ]);
         // }catch(Exception $e){
         //     return response()->json(['report'=>$e]);
         // }

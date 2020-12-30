@@ -684,14 +684,19 @@
             </div>
         </div>
         <div class="row">
-
-            <div >
+        <div id="dangeralerts" style="display:none" class="alert alert-danger">
+        <strong style="color: red;">Failed!</strong>Fields cannot be empty Check form and submit again
+</div>
+        <div id="alerts" style="display:none" class="alert alert-success alert-dismissible fade in">
+    <a href="#" class="close" style="" data-dismiss="alert" aria-label="close">&times;</a>
+    <strong style="color: blue;">Success!</strong> Message Sent sucessfully an agent will get back to you shortly.
+  </div>
         <form id='contactUsForm' action="{{route('saveContact')}}" method="POST">
             @csrf
   <div class="form-row">
     <div class="form-group col-md-6">
       <label for="inputEmail4">Firstname</label>
-      <input type="text" name="firstname" class="form-control" id="firstname" placeholder="Firstname">
+      <input type="text" name="firstname" class="form-control" id="firstname" placeholder="Firstname" >
     </div>
     <div class="form-group col-md-6">
       <label for="inputPassword4">Lastname</label>
