@@ -1,4 +1,5 @@
 ﻿{{-- <!DOCTYPE html>
+ 
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
     <head>
         <meta charset="utf-8">
@@ -35,6 +36,17 @@
                     @endauth
                 </div>
             @endif
+            <h1>Create Post</h1>
+
+@if ($errors->any())
+    <div class="alert alert-danger">
+        <ul>
+            @foreach ($errors->all() as $error)
+                <li>{{ $error }}</li>
+            @endforeach
+        </ul>
+    </div>
+@endi
 
             <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
                 <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
@@ -689,6 +701,10 @@
     <div class="form-group col-md-6">
       <label for="inputPassword4">Email</label>
       <input type="text" name="email"  class="form-control" id="email" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6">
+      <label for="inputPassword4">Phone number</label>
+      <input type="text" name="number"  class="form-control" id="number" placeholder="Phone number">
     </div>
     <div class="form-group col-md-6">
       <label for="inputPassword4">Subject</label>

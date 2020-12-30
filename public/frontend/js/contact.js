@@ -16,37 +16,43 @@
 //         }
 //     });    
 
-    let submitButton = document.getElementById('submit');
+    // let submitButton = document.getElementById('submit');
   
 
 
-    submitButton.addEventListener('click',(e)=>{
-        e.preventDefault();
+    // submitButton.addEventListener('click',(e)=>{
+    //     e.preventDefault();
        
-        let token = document.getElementById("contactUsForm").querySelectorAll('input')[0].value;
-        let firstname = document.getElementById('firstname').value;
-        let lastname = document.getElementById('lastname').value;
-        let email = document.getElementById('email').value;
-        let subject = document.getElementById('subject').value;
-        let message = document.getElementById('message').value;
-        let data ={
-            'firstname':firstname,
-            'lastname':lastname,
-            'email':email,
-            'subject':subject,
-            'message':message
-        }
+    //     let token = document.getElementById("contactUsForm").querySelectorAll('input')[0].value;
+    //     let firstname = document.getElementById('firstname').value;
+    //     let lastname = document.getElementById('lastname').value;
+    //     let email = document.getElementById('email').value;
+    //     let subject = document.getElementById('subject').value;
+    //     let message = document.getElementById('message').value;
+    //     let number = document.getElementById('number').value;
 
-        fetch('/saveContact', {
-            headers: {
-                'X-CSRF-TOKEN': token
-            },
-            method: 'POST',
-            credentials: "same-origin",
-            body:JSON.stringify(data)
-          }).then(res=>res.json()).then(data=>{
-              console.log(data);
-          }).catch((error)=>{
-            console.log(error);
-              })
-    })
+    //     let formD = new FormData();
+    //     formD.append('firstname',firstname)
+    //     formD.append('lastname',lastname)
+    //     formD.append('email',email)
+    //     formD.append('subject',subject)
+    //     formD.append('message',message)
+    //     formD.append('number',number)
+
+
+     
+    //     console.log(formD);
+
+    //     fetch('/saveContact', {
+    //         headers: {
+    //             'X-CSRF-TOKEN': token
+    //         },
+    //         method: 'POST',
+    //         credentials: "same-origin",
+    //         body:formD
+    //       }).then(res=>res.json()).then(data=>{
+    //           console.log(data);
+    //       }).catch((error)=>{
+    //         console.log(error);
+    //           })
+    // })
