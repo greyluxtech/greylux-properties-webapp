@@ -48,19 +48,19 @@ class ContactController extends Controller
 //             'phone_number' => 'required',
 //             'message' => 'required'
 //         ]);
-        \Mail::send(
-             array(
-                 'firstname' => $request->firstname,
-                 'lastname' => $request->lastname,
-                 'email' => $request->email,
-                 'subject' => $request->subject,
-                 'phone_number' => $request->phone_number,
-                 'user_message' => $request->message,
-             ), function($message) use ($request)
-               {
-                  $message->from($request->email);
-                  $message->to('obochi2@gmail.com');
-               });
+        // \Mail::send(
+        //      array(
+        //          'firstname' => $request->firstname,
+        //          'lastname' => $request->lastname,
+        //          'email' => $request->email,
+        //          'subject' => $request->subject,
+        //          'phone_number' => $request->phone_number,
+        //          'user_message' => $request->message,
+        //      ), function($message) use ($request)
+        //        {
+        //           $message->from($request->email);
+        //           $message->to('obochi2@gmail.com');
+        //        });
         return response()->json(['report'=>    $firstname ]);
         // }catch(Exception $e){
         //     return response()->json(['report'=>$e]);

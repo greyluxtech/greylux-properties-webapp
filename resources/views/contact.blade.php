@@ -679,7 +679,7 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h2 class="uppercase text-center">Have a quetion you would like to ask us?</h2>
+                <h2 class="uppercase text-center">Have a question you would like to ask us?</h2>
                 <p class="heading_space text-center">Fill the form below we would get back to you.</p>
             </div>
         </div>
