@@ -4,7 +4,9 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Contact; 
-use Mail;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\Contact as MailContact;
+
 class ContactController extends Controller
 {
 
@@ -14,8 +16,7 @@ class ContactController extends Controller
     }
     //save user contact message and send mail
     public function saveContact(Request $request) { 
-        // dd($request);
-        // try{
+        try{
             $validated = $request->validate([
                 'firstname' => 'required',
                 'lastname' => 'nullable',
@@ -39,24 +40,19 @@ class ContactController extends Controller
             $contact->number = $request->number;
             $contact->message = $request->message;
             $contact->save();
-
-        // \Mail::send(
-        //      array(
-        //          'firstname' => $request->firstname,
-        //          'lastname' => $request->lastname,
-        //          'email' => $request->email,
-        //          'subject' => $request->subject,
-        //          'phone_number' => $request->phone_number,
-        //          'user_message' => $request->message,
-        //      ), function($message) use ($request)
-        //        {
-        //           $message->from($request->email);
-        //           $message->to('obochi2@gmail.com');
-        //        });
+            $data = [
+            'firstname' => $request->firstname,
+            'lastname'=> $request->lastname,
+           'email'=> $request->email,
+            'subject' =>$request->subject,
+            'number' => $request->number,
+           'message' =>$request->message
+            ];
+            Mail::to('contact@greyluxassets.com')->send(new MailContact($data));
         return response()->json(['report'=> 'Message sent sucessfully' ]);
-        // }catch(Exception $e){
-        //     return response()->json(['report'=>$e]);
-        // }
+        }catch(\Exception $e){
+            return response()->json(['report'=>$e->getMessage()]);
+        }
     }
 
 }

@@ -675,7 +675,7 @@
 
 
 <!--Deals-->
-<section id="deal" class="padding_bottom_half padding_top">
+<section style ="background-color:lightblue" id="deal" class="padding_bottom_half padding_top">
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
@@ -730,13 +730,6 @@
 
 </form>
             </div>
-                <div class="item text-center">
-            
-
-                   
-                </div>
-               
-              
             </div>
         </div>
     </div>

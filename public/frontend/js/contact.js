@@ -1,21 +1,4 @@
-
-//    var map;
-//     map = new GMaps({
-//         el: '#map',
-//         lat: 21.2334329,
-//         lng: 72.86372,
-//         scrollwheel: false
-//     });
-
-//     map.addMarker({
-//         lat: 21.2334329,
-//         lng: 72.86372,
-//         title: 'Marker with InfoWindow',
-//         infoWindow: {
-//             content: '<p>Advisor Melbourne, Merrick Way, <br>FL 12345 Australia<a href="#"  target="_blank">Themeforest</a></p>'
-//         }
-//     });    
-
+  window.onload= function(){
     let submitButton = document.getElementById('submit');
 
     submitButton.addEventListener('click',(e)=>{
@@ -58,6 +41,11 @@
             alerts.style.display='block';
             return(null);
           }).catch((error)=>{
-            console.log(error);
+            let dangeralerts = document.getElementById('dangeralerts');
+            dangeralerts.style.display = 'block';
+            return null;
               })
     })
+  }
+
+    
