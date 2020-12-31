@@ -2,6 +2,11 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ResultController;
+
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -20,6 +25,8 @@ Route::get('/', function () {
 Route::get('/contact',[ContactController::class, 'displayContact'])->name('contact');
 
 Route::post('/saveContact',[ContactController::class, 'saveContact'])->name('saveContact');
+
+Route::get('/result',[ResultController::class, 'displayResult'])->name('displayResult');
 
 
 
