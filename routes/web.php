@@ -22,6 +22,8 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 })->name('dashboard');
 
 Route::get('/faq', function () {
+    // $faqs = DB::table('faqs')->get();
+    // return view('faq', compact('tasks'));
     return view('faq');
 });
 

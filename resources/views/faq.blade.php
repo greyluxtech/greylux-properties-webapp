@@ -332,4 +332,11 @@
     </div>
 </section>
 <!--END FAQ-->
+
+<!-- <ul>
+    @foreach ($faqs as $faq)
+        <li>{{ $faq->body }}</li>
+    @foreach
+</ul>
+     -->
 @endsection
