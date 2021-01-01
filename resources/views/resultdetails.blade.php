@@ -676,13 +676,14 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 listing1 property-details">
+        <h2 class="text-uppercase">987 Gwarinpa Drive</h2>
+        <p class="bottom30">12 Regent Street, Abuja, Fct</p>
               
         <div class="col-md-4">
     <div class="thumbnail">
         <img src="frontend/images/home1-banner1.jpg" alt="Lights" style="width:100%">
         <div class="caption">
-        <h4>Property x</h4>
-        <a href="#"> View Property</a>
+
         </div>
 
     </div>
@@ -692,8 +693,7 @@
      
         <img src="frontend/images/home1-banner1.jpg" alt="property" style="width:100%">
         <div class="caption">
-        <h4>Property x</h4>
-        <a href="#"> View Property</a>
+         
         </div>
 
     </div>
@@ -703,72 +703,118 @@
     
         <img src="frontend/images/home1-banner1.jpg" alt="property" style="width:100%">
         <div class="caption">
-        <h4>Property x</h4>
-        <a href="#"> View Property</a>
         </div>
     </div>
   </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-    
-        <img src="frontend/images/home1-banner1.jpg" alt="property" style="width:100%">
-        <div class="caption">
-        <h4>Property x</h4>
-        <a href="#"> View Property</a>
-        </div>
-    </div>
+  <div class="col-md-12 col-sm-12 mt-3 mb-5">
+      <h3 class="text-center mb-3">Property Description</h3>
+      <h5 class="m-3">Brief description of property</h5>
   </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-    
-        <img src="frontend/images/home1-banner1.jpg" alt="property" style="width:100%">
-        <div class="caption">
-        <h4>Property x</h4>
-        <a href="#"> View Property</a>
+  <div class="">
+    <div   class="col-md-12 col-sm-12 mt-3">
+    <h3 class="text-center mb-3">Quick Summary</h3>
+    <div class="row property-d-table bottom40">
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <table class="table table-striped table-responsive">
+              <tbody>
+                <tr>
+                  <td><b>Property Id</b></td>
+                  <td class="text-right">5456</td>
+                </tr>
+                <tr>
+                  <td><b>Price</b></td>
+                  <td class="text-right">$8,600 / month</td>
+                </tr>
+                <tr>
+                  <td><b>Property Size</b></td>
+                  <td class="text-right">5,500 ft2</td>
+                </tr>
+                <tr>
+                  <td><b>Bedrooms</b></td>
+                  <td class="text-right">5</td>
+                </tr>
+                <tr>
+                  <td><b>Bathrooms</b></td>
+                  <td class="text-right">3</td>
+                </tr>
+                <tr>
+                  <td><b>Available From</b></td>
+                  <td class="text-right">22-04-2017</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <table class="table table-striped table-responsive">
+              <tbody>
+                <tr>
+                  <td><b>Status</b></td>
+                  <td class="text-right">Rent</td>
+                </tr>
+                <tr>
+                  <td><b>Year Built</b></td>
+                  <td class="text-right">1991</td>
+                </tr>
+                <tr>
+                  <td><b>Garages</b></td>
+                  <td class="text-right">1</td>
+                </tr>
+                <tr>
+                  <td><b>Cross Streets</b></td>
+                  <td class="text-right">Nordoff</td>
+                </tr>
+                <tr>
+                  <td><b>Floors</b></td>
+                  <td class="text-right">Carpet - Ceramic Tile</td>
+                </tr>
+                <tr>
+                  <td><b>Plumbing</b></td>
+                  <td class="text-right">Full Copper Plumbing</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
-    </div>
+          <div >
+          <h2 class="text-uppercase bottom20">Contact Agent</h2>
+        <div class="row">
+          <div class="col-sm-6 bottom40">
+            <div class="agent_wrap">
+              <div class="image">
+                <img src="frontend/images/home1-banner1.jpg" alt="Agents">
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-6 bottom40">
+            <div class="agent_wrap">
+              <h3>Kunle Mohamed</h3>
+              <p class="bottom30">Brief description of agent</p>
+              <table class="agent_contact table">
+                <tbody>
+                  <tr class="bottom10">
+                    <td><strong>Phone:</strong></td>
+                    <td class="text-right">(+234) 90779090</td>
+                  </tr>
+                  <tr class="bottom10">
+                    <td><strong>Mobile:</strong></td>
+                    <td class="text-right">(+234) 90779090</td>
+                  </tr>
+                  <tr>
+                    <td><strong>Email Adress:</strong></td>
+                    <td class="text-right"><a href="#.">agent@greyluxassets.com</a></td>
+                  </tr>
+                  <tr>
+                    <td><strong>Skype:</strong></td>
+                    <td class="text-right"><a href="#.">live:kunleMohamed</a></td>
+                  </tr>
+                </tbody>
+              </table>
+          </div>
+          </div>
   </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-    
-        <img src="frontend/images/home1-banner1.jpg" alt="property" style="width:100%">
-        <div class="caption">
-        <h4>Property x</h4>
-        <a href="#"> View Property</a>
-        </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-    
-        <img src="frontend/images/home1-banner1.jpg" alt="property" style="width:100%">
-        <div class="caption">
-        <h4>Property x</h4>
-        <a href="#"> View Property</a>
-        </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-    
-        <img src="frontend/images/home1-banner1.jpg" alt="property" style="width:100%">
-        <div class="caption">
-        <h4>Property x</h4>
-        <a href="#"> View Property</a>
-        </div>
-    </div>
-  </div>
-  <div class="col-md-4">
-    <div class="thumbnail">
-    
-        <img src="frontend/images/home1-banner1.jpg" alt="property" style="width:100%">
-        <div class="caption">
-        <h4>Property x</h4>
-        <a href="#"> View Property</a>
-        </div>
-    </div>
-  </div>
- 
+
+     
+      </div>
       
   
     </div>

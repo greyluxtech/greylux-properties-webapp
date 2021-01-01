@@ -26,7 +26,9 @@ Route::get('/contact',[ContactController::class, 'displayContact'])->name('conta
 
 Route::post('/saveContact',[ContactController::class, 'saveContact'])->name('saveContact');
 
-Route::get('/result',[ResultController::class, 'displayResult'])->name('displayResult');
+Route::get('/result/details',[ResultController::class, 'displayResultDetails'])->name('displayResultDetails');
+
+Route::get('/result/',[ResultController::class, 'searchProperties'])->name('searchProperties');
 
 
 

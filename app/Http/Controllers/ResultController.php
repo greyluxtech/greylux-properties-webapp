@@ -7,7 +7,10 @@ use Illuminate\Http\Request;
 class ResultController extends Controller
 {
     //
-    public function displayResult() { 
+    public function displayResultDetails() { 
+        return view('resultdetails'); 
+       }
+    public function searchProperties() { 
         return view('result'); 
        }
 }
