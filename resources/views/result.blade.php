@@ -676,6 +676,7 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 listing1 property-details">
+        <h2 class="text-uppercase">Search Results</h2>
               
         <div class="col-md-4">
     <div class="thumbnail">

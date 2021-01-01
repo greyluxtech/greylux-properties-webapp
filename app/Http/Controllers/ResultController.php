@@ -8,9 +8,17 @@ class ResultController extends Controller
 {
     //
     public function displayResultDetails() { 
-        return view('resultdetails'); 
+        //connect database and search for pecific property
+        $property = ['prop x'];
+            //return view with property details
+        return view('resultdetails')->with('property', $property); 
        }
     public function searchProperties() { 
-        return view('result'); 
+
+        //connect database and search for pecific property
+
+            //return view with property details
+            $properties = ['prop1','prop2'];
+        return view('result')->with('properties', $properties); 
        }
 }
