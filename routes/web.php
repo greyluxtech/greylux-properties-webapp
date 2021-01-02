@@ -1,6 +1,6 @@
 <?php
-
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\FaqsController;
 
 /*
 |--------------------------------------------------------------------------
@@ -21,11 +21,7 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::get('/faq', function () {
-    // $faqs = DB::table('faqs')->get();
-    // return view('faq', compact('tasks'));
-    return view('faq');
-});
+Route::get('/testdata',[FaqsController::class, 'index']);
 
 Route::get('/policies', function () {
     return view('policies');
