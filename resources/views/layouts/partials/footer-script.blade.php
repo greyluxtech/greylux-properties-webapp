@@ -1,6 +1,7 @@
 <script src="{{ asset('frontend/js/jquery-2.1.4.js') }}"></script>
     <script src="{{ asset('frontend/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('frontend/js/jquery.appear.js') }}"></script>
+    <script src="{{ asset('frontend/js/contact.js') }}"></script>
     <script src="{{ asset('frontend/js/jquery-countTo.js') }}"></script>
     <script src="{{ asset('frontend/js/bootsnav.js') }}"></script>
     <script src="{{ asset('frontend/js/masonry.pkgd.min.js') }}"></script>

@@ -1,6 +1,12 @@
 <?php
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\FaqsController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ResultController;
+
+
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -16,6 +22,15 @@ use App\Http\Controllers\FaqsController;
 Route::get('/', function () {
     return view('welcome');
 });
+Route::get('/contact',[ContactController::class, 'displayContact'])->name('contact');
+
+Route::post('/saveContact',[ContactController::class, 'saveContact'])->name('saveContact');
+
+Route::get('/result/details',[ResultController::class, 'displayResultDetails'])->name('displayResultDetails');
+
+Route::post('/result',[ResultController::class, 'searchProperties'])->name('searchProperties');
+
+
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
