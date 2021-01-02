@@ -21,7 +21,8 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 
-Route::get('/testdata',[FaqsController::class, 'index']);
+Route::get('/faq',[FaqsController::class, 'index']);
+Route::get('/faq',[FaqsController::class, 'single']);
 
 Route::get('/policies', function () {
     return view('policies');

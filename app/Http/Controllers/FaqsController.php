@@ -6,9 +6,9 @@ use illuminate\Http\Request;
 class FaqsController extends Controller
 {
     public function index(){
-         $faqs = Faq::all();
+         $faqs = Faq::all()->take(10);
 
-        return view('testdata', compact('faqs'));
+        return view('faq', compact('faqs'));
 
     }
 }
