@@ -15,7 +15,7 @@ class ResultController extends Controller
        }
     public function searchProperties() { 
 
-        //connect database and search for pecific property
+        //connect database and search for specific property
 
             //return view with property details
             $properties = ['prop1','prop2'];
