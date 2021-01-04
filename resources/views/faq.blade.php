@@ -1,4 +1,4 @@
-
+<link rel="stylesheet" type="text/css" href="{{ url('/css/faq.css') }}" />
 @extends('layouts.mainlayout')
 @section('content')
 <!--BANNER-->
@@ -16,49 +16,14 @@
 
 <!--FAQ-->
 <section id="faqs" class="padding_half bottom40">
-@foreach ($faqs as $faq)
-	<div class="container">
-    	<div class="row">
-        	<div class="col-sm-6">
-            	<div class="faq-text margin40">
-                    <h5><strong>Q: {{$faq->question}}</strong></h5>
-                    <p class="top15">{{$faq->answer}}</p>
-            	</div>
-              <div class="faq-text margin40">
-                    <h5><strong>Q: {{$faq->question}}</strong></h5>
-                    <p class="top15">{{$faq->answer}}</p>
-            	</div>
-              <div class="faq-text margin40">
-                    <h5><strong>Q: {{$faq->question}}</strong></h5>
-                    <p class="top15">{{$faq->answer}}</p>
-            	</div>
-              <div class="faq-text margin40">
-                    <h5><strong>Q: {{$faq->question}}</strong></h5>
-                    <p class="top15">{{$faq->answer}}</p>
-            	</div>
-            </div>
-            
-            <div class="col-sm-6">
-            <div class="faq-text margin40">
-                    <h5><strong>Q: {{$faq->question}}</strong></h5>
-                    <p class="top15">{{$faq->answer}}</p>
-            	</div>
-              <div class="faq-text margin40">
-                    <h5><strong>Q: {{$faq->question}}</strong></h5>
-                    <p class="top15">{{$faq->answer}}</p>
-            	</div>
-              <div class="faq-text margin40">
-                    <h5><strong>Q: {{$faq->question}}</strong></h5>
-                    <p class="top15">{{$faq->answer}}</p>
-            	</div>
-              <div class="faq-text margin40">
-                    <h5><strong>Q: {{$faq->question}}</strong></h5>
-                    <p class="top15">{{$faq->answer}}</p>
-            	</div>
-            </div>
-        </div>
+  <div class="grid-container">
+  @foreach ($faqs as $faq)
+    <div class="grid-item margin">
+        <h4><strong>Q: {{$faq->question}}</strong></h4>
+        <p class="top15">{{$faq->answer}}</p>
     </div>
-  @endforeach
+    @endforeach
+  </div>
 </section>
 <!--END FAQ-->
 @endsection
