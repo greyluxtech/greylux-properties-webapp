@@ -16,7 +16,13 @@
     </div>
 </x-app-layout> --}}
 @extends('dashboard.dashlayout')
-
+@section('admindash')
+<li>
+    <a href="{{url('roles')}}" >
+        <i class="metismenu-icon pe-7s-graph1"></i>Roles
+    </a>
+  </li>
+@endsection
 @section('content')
 <body>
    
@@ -28,7 +34,7 @@
                                     <i class="pe-7s-car icon-gradient bg-mean-fruit"></i>
                                 </div>
                                 <div>Welcome, {{Auth::user()->name}}
-                                    <div class="page-title-subheading">You are Logged in as a User</div>
+                                    <div class="page-title-subheading">You are Logged in as a {{Auth::user()->name}}</div>
                                 </div>
                             </div>
                             <div class="page-title-actions">
@@ -74,7 +80,8 @@
                                         </ul>
                                     </div>
                                 </div>
-                            </div>    </div>
+                            </div> 
+                         </div>
                     </div> 
                     {{-- <div class="tabs-animation">
                         <div class="mb-3 card">

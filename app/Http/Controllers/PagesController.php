@@ -13,6 +13,8 @@ class PagesController extends Controller
         if(Auth::user()->hasRole('admin')){
             return view('dashboard.index');
         }
-        return view('dashboard');  
+
+        $role = Role::all();
+        return view('dashboard', compact('role'));  
     }
 }

@@ -20,17 +20,23 @@ class RolesAndPermissionsSeeder extends Seeder
         app()[\Spatie\Permission\PermissionRegistrar::class]->forgetCachedPermissions();
 
          // create permissions
-         Permission::create(['name' => 'edit user']);
+         Permission::create(['name' => 'view developer dashboard']);
+         Permission::create(['name' => 'view admin dashboard']);
+         Permission::create(['name' => 'view agent dashboard']);
+         Permission::create(['name' => 'view user dashboard']);
  
          // create roles and assign existing permissions
-         $role1 = Role::create(['name' => 'developer']);
-         $role1->givePermissionTo('edit user');
+         $role1 = Role::create(['name' => 'developer'])
+                    ->givePermissionTo(['view developer dashboard', 'view admin dashboard', 'view agent dashboard', 'view user dashboard']);
  
-         $role2 = Role::create(['name' => 'admin']);
+         $role2 = Role::create(['name' => 'admin'])
+                    ->givePermissionTo(['view admin dashboard', 'view agent dashboard', 'view user dashboard']);
  
-         $role3 = Role::create(['name' => 'agent']);
+         $role3 = Role::create(['name' => 'agent'])
+                    ->givePermissionTo(['view agent dashboard', 'view user dashboard']);
 
-         $role4 = Role::create(['name' => 'user']);
+         $role4 = Role::create(['name' => 'user'])
+                    ->givePermissionTo(['view user dashboard']);
          // gets all permissions via Gate::before rule; see AuthServiceProvider
  
          // create demo users

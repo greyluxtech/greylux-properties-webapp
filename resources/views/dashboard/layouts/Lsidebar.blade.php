@@ -34,7 +34,7 @@
           <ul class="vertical-nav-menu">
               <li class="app-sidebar__heading">Menu</li>
               <li>
-                  <a href="#" >
+                  <a href="{{route('dashboard')}}" >
                       <i class="metismenu-icon pe-7s-graph"></i>Dashbord
                   </a>
               </li>
@@ -58,6 +58,9 @@
                       <i class="metismenu-icon pe-7s-graph1"></i>My Houses
                   </a>
               </li>
+              @can(' view admin dashboard')   
+               @yield('admindash')
+            @endcan
           </ul>
       </div>
   </div>

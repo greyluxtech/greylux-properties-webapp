@@ -694,7 +694,6 @@
                   </div>
               </div>
           </div>
-        
                     
           <div class="header-btn-lg pr-0">
               <div class="widget-content p-0">
@@ -732,7 +731,12 @@
                                                           <div class="widget-subheading opacity-8">{{ Auth::user()->email }}</div>
                                                       </div>
                                                       <div class="widget-content-right mr-2">
-                                                          <button class="btn-pill btn-shadow btn-shine btn btn-focus">Logout</button>
+                                                        <form method="POST" action="{{ route('logout') }}">
+                                                            @csrf
+                                                          <a href="{{ route('logout') }}" onclick="event.preventDefault();
+                                                          this.closest('form').submit();" class="btn-pill btn-shadow btn-shine btn btn-focus">Logout
+                                                          </a>
+                                                        </form>
                                                       </div>
                                                   </div>
                                               </div>
@@ -744,63 +748,73 @@
                                           <ul class="nav flex-column">
                                               <li class="nav-item-header nav-item">Activity</li>
                                               <li class="nav-item">
-                                                  <a href="javascript:void(0);" class="nav-link">Chat
-                                                      <div class="ml-auto badge badge-pill badge-info">8</div>
-                                                  </a>
+                                                  <a href="{{ route('profile.show') }}" class="nav-link" :active="request()->routeIs('profile.show')">Profile</a>
                                               </li>
+                                              @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
+                                              <li class="nav-item-header nav-item">
+                                                <a href="{{ route('api-tokens.index') }}" class="nav-link" :active="request()->routeIs('api-tokens.index')">
+                                                    {{ __('API Tokens') }}
+                                                </a>
+                                              </li>
+                                              @endif
+
+                                              @if (Laravel\Jetstream\Jetstream::hasTeamFeatures())
+                                        <div class="border-t border-gray-200"></div>
+                    
+                                        <div class="block px-4 py-2 text-xs text-gray-400">
+                                            {{ __('Manage Team') }}
+                                        </div>
+                    
+                                        <!-- Team Settings -->
+                                        <x-jet-responsive-nav-link href="{{ route('teams.show', Auth::user()->currentTeam->id) }}" :active="request()->routeIs('teams.show')">
+                                            {{ __('Team Settings') }}
+                                        </x-jet-responsive-nav-link>
+                    
+                                        <x-jet-responsive-nav-link href="{{ route('teams.create') }}" :active="request()->routeIs('teams.create')">
+                                            {{ __('Create New Team') }}
+                                        </x-jet-responsive-nav-link>
+                    
+                                        <div class="border-t border-gray-200"></div>
+                    
+                                        <!-- Team Switcher -->
+                                        <div class="block px-4 py-2 text-xs text-gray-400">
+                                            {{ __('Switch Teams') }}
+                                        </div>
+                    
+                                        @foreach (Auth::user()->allTeams() as $team)
+                                            <x-jet-switchable-team :team="$team" component="jet-responsive-nav-link" />
+                                        @endforeach
+                                    
+
                                               <li class="nav-item">
-                                                  <a href="javascript:void(0);" class="nav-link">Recover Password</a>
-                                              </li>
-                                              <li class="nav-item-header nav-item">My Account
-                                              </li>
-                                              <li class="nav-item">
-                                                  <a href="javascript:void(0);" class="nav-link">Settings
-                                                      <div class="ml-auto badge badge-success">New</div>
-                                                  </a>
-                                              </li>
-                                              <li class="nav-item">
-                                                  <a href="javascript:void(0);" class="nav-link">Messages
+                                                  <a href="{{ route('teams.show', Auth::user()->currentTeam->id) }}" :active="request()->routeIs('teams.show')" class="nav-link">{{ __('Team Settings') }}
                                                       <div class="ml-auto badge badge-warning">512</div>
                                                   </a>
                                               </li>
                                               <li class="nav-item">
-                                                  <a href="javascript:void(0);" class="nav-link">Logs</a>
+                                                  <a href="{{ route('teams.create') }}" :active="request()->routeIs('teams.create')" class="nav-link">{{ __('Create New Team') }}</a>
                                               </li>
+                                              <div class="block px-4 py-2 text-xs text-gray-400">
+                                                {{ __('Switch Teams') }}
+                                            </div>
+                                            @foreach (Auth::user()->allTeams() as $team)
+                                            <x-jet-switchable-team :team="$team" component="jet-responsive-nav-link" />
+                                             @endforeach
+                                            {{-- <li class="nav-item">
+                                                <a href="javascript:void(0);" class="nav-link">Logs</a>
+                                            </li> --}}
+
+                                              @endif
                                           </ul>
                                       </div>
                                   </div>
-                                  <ul class="nav flex-column">
-                                      <li class="nav-item-divider mb-0 nav-item"></li>
-                                  </ul>
-                                  <div class="grid-menu grid-menu-2col">
-                                      <div class="no-gutters row">
-                                          <div class="col-sm-6">
-                                              <button class="btn-icon-vertical btn-transition btn-transition-alt pt-2 pb-2 btn btn-outline-warning">
-                                                  <i class="pe-7s-chat icon-gradient bg-amy-crisp btn-icon-wrapper mb-2"></i> Message Inbox
-                                              </button>
-                                          </div>
-                                          <div class="col-sm-6">
-                                              <button class="btn-icon-vertical btn-transition btn-transition-alt pt-2 pb-2 btn btn-outline-danger">
-                                                  <i class="pe-7s-ticket icon-gradient bg-love-kiss btn-icon-wrapper mb-2"></i>
-                                                  <b>Support Tickets</b>
-                                              </button>
-                                          </div>
-                                      </div>
-                                  </div>
-                                  <ul class="nav flex-column">
-                                      <li class="nav-item-divider nav-item">
-                                      </li>
-                                      <li class="nav-item-btn text-center nav-item">
-                                          <button class="btn-wide btn btn-primary btn-sm"> Open Messages </button>
-                                      </li>
-                                  </ul>
                               </div>
                           </div>
                       </div>
-                      <div class="widget-content-left  ml-3 header-user-info">
+                      {{-- <div class="widget-content-left  ml-3 header-user-info">
                           <div class="widget-heading"> Alina Mclourd </div>
                           <div class="widget-subheading"> VP People Manager </div>
-                      </div>
+                      </div> --}}
                       <div class="widget-content-right header-user-info ml-3">
                           <button type="button" class="btn-shadow p-1 btn btn-primary btn-sm show-toastr-example">
                               <i class="fa text-white fa-calendar pr-1 pl-1"></i>
