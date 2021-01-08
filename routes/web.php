@@ -24,13 +24,19 @@ Route::get('/', function () {
 //     return view('dashboard');
 // })->name('dashboard');
 
-Route::get('/dashboard', [PagesController::class, 'dashboard'])->name('dashboard')->middleware(['auth:sanctum', 'verified']);
 
-Route::group(['middleware' => ['auth:sanctum','verified','role:developer']], function() {
+Route::group(['middleware' => ['auth:sanctum', 'verified']], function () {
+    Route::get('/dashboard', [PagesController::class, 'dashboard'])->name('dashboard');
+});
+
+Route::group(['middleware' => ['role_or_permission:admin|view admin dashboard']], function () {
+    Route::get('/admin', function () {
+        return view('admin.index');
+    });
+
     Route::resource('roles', RoleController::class);
     Route::resource('users', UserController::class);
 });
-
 
  
         

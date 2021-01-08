@@ -16,7 +16,10 @@
     </div>
 </x-app-layout> --}}
 @extends('dashboard.dashlayout')
-@section('admindash')
+@section('lside')
+  @include('dashboard.layouts.Lsidebar')
+@endsection
+@section('agentdash')
 <li>
     <a href="{{url('roles')}}" >
         <i class="metismenu-icon pe-7s-graph1"></i>Roles

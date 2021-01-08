@@ -58,8 +58,8 @@
                       <i class="metismenu-icon pe-7s-graph1"></i>My Houses
                   </a>
               </li>
-              @can(' view admin dashboard')   
-               @yield('admindash')
+              @can(' view agent dashboard')   
+               @yield('agentdash')
             @endcan
           </ul>
       </div>

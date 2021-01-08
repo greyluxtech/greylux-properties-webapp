@@ -8,13 +8,15 @@
         @include('dashboard.layouts.header')
              <!-- Content Wrapper. Contains page content -->
              <div class="app-main">
-                @include('dashboard.layouts.Lsidebar')
+                {{-- @include('dashboard.layouts.Lsidebar') --}}
+                @yield('lside')
                 <div class="app-main__outer">
                 @yield('content')
                 @include('dashboard.layouts.footer')
                 </div>
             </div>
 @include('dashboard.layouts.footer-script')
+{{-- @yield('fside') --}}
 </div>
 <script>
   @if(Session::has('message'))

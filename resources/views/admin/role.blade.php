@@ -1,5 +1,7 @@
 @extends('dashboard.dashlayout')
-
+@section('lside')
+  @include('dashboard.layouts.adminLsidebar')
+@endsection
 @section('content')
 <body>
    
@@ -124,7 +126,7 @@
                                         <td class="text-center">
                                             <div role="group" class="btn-group-sm btn-group">
                                                 <button class="btn-shadow btn btn-primary">Edit</button>
-                                                <button class="btn-shadow btn btn-primary">Delete</button>
+                                                <button class="btn-shadow btn btn-danger">Delete</button>
                                             </div>
                                         </td> 
                                         @endforeach

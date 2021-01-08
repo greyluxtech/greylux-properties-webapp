@@ -11,7 +11,7 @@ class PagesController extends Controller
 {
     public function dashboard() {
         if(Auth::user()->hasRole('admin')){
-            return view('dashboard.index');
+            return view('admin.index');
         }
 
         $role = Role::all();
