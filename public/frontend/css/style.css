@@ -4039,7 +4039,7 @@ header nav.navbar.bootsnav ul.nav > li > a{font-size: 14px;}
 }
 @media screen and (max-width: 992px) {
 h1{
-	font-size:30px;
+    font-size:30px;
 }
 h2 {
   font-size:28px;
@@ -4258,6 +4258,10 @@ ul.social_share {
 
 }
 @media screen and (max-width: 640px){
+
+#rev_overlaped h1{ font-size:28px; font-weight:bold; top: -100%;}
+
+#rev_overlaped p{ font-size:17px; margin-top: 20px;}
 
 .agent_media .agents > img{ width:100%;}
 .agent_media .agents, .agent_media .agents_white {
