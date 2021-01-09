@@ -20,7 +20,7 @@
                             <i class="fa fa-bars"></i>
                         </button>
                         <a class="navbar-brand" href="/"><img src="{{ asset('images/_.png') }}" class="logo"
-                                alt="" width="100px" height="100px"></a>
+                                alt="logo"></a>
                     </div>
                     <div class="collapse navbar-collapse" id="navbar-menu">
                         <ul class="nav navbar-nav navbar-right" data-in="fadeIn" data-out="fadeOut">

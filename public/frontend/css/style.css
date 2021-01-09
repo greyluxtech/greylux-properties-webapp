@@ -4067,6 +4067,10 @@ p {
 .header-upper .logo {
   display: block;
 }
+.logo{
+    width: 100px;
+    height: 100px;
+}
 .info-box {
   padding: 0 10px;
 }
@@ -4262,6 +4266,26 @@ ul.social_share {
 #rev_overlaped h1{ font-size:28px; font-weight:bold; top: -100%;}
 
 #rev_overlaped p{ font-size:17px; margin-top: 20px;}
+
+.btn_common, .btn-more, .toggler, .btn-blue, .btn-white, .btn-black, .btn-dark, .btn-white-fill, .btn-yellow{
+	font-size:14px;
+    padding:10px 35px;
+    margin-top: 70px;
+	display:inline-block;
+	font-weight:bold;
+	position:relative;
+	overflow:hidden;
+	z-index:1;
+	-webkit-transition-property: background;
+    transition-property: background;
+   -webkit-transition-duration: 0.5s;
+   transition-duration: 0.5s;
+}
+
+.logo{
+    width: 50px;
+    height: 50px;
+}
 
 .agent_media .agents > img{ width:100%;}
 .agent_media .agents, .agent_media .agents_white {
