@@ -4289,6 +4289,9 @@ ul.social_share {
 .mobile{
     display: block;
 }
+.proerty_content .property_meta.prop2{
+    display: none;
+}
 
 #rev_overlaped h1{ font-size:28px; font-weight:bold; top: -100%;}
 

@@ -344,7 +344,7 @@
                             <span><i class="icon-bed"></i>2 Office Rooms</span>
                             <span><i class="icon-safety-shower"></i>3 Bathroom</span>
                         </div>
-                        <div class="property_meta transparent bottom30">
+                        <div class="prop2 property_meta transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
                             <span><i class="icon-garage"></i>1 Garage</span>
                             <span></span>
@@ -390,7 +390,7 @@
                             <span><i class="icon-bed"></i>4 Rooms</span>
                             <span><i class="icon-safety-shower"></i>4 Bathroom</span>
                         </div>
-                        <div class="property_meta transparent bottom30">
+                        <div class="property_meta prop2 transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
                             <span><i class="icon-garage"></i>1 Garage</span>
                             <span></span>
@@ -437,7 +437,7 @@
                             <span><i class="icon-bed"></i>5 Rooms</span>
                             <span><i class="icon-safety-shower"></i>6 Bathroom</span>
                         </div>
-                        <div class="property_meta transparent bottom30">
+                        <div class="property_meta prop2 transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
                             <span><i class="icon-garage"></i>1 Garage</span>
                             <span></span>
@@ -483,7 +483,7 @@
                             <span><i class="icon-bed"></i>2 Office Rooms</span>
                             <span><i class="icon-safety-shower"></i>2 Bathroom</span>
                         </div>
-                        <div class="property_meta transparent bottom30">
+                        <div class="property_meta prop2 transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
                             <span><i class="icon-garage"></i>1 Garage</span>
                             <span></span>
@@ -529,7 +529,7 @@
                             <span><i class="icon-bed"></i>5 Rooms</span>
                             <span><i class="icon-safety-shower"></i>6 Bathroom</span>
                         </div>
-                        <div class="property_meta transparent bottom30">
+                        <div class="property_meta prop2 transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
                             <span><i class="icon-garage"></i>1 Garage</span>
                             <span></span>
@@ -576,7 +576,7 @@
                             <span><i class="icon-bed"></i>4 Office Rooms</span>
                             <span><i class="icon-safety-shower"></i>5 Bathroom</span>
                         </div>
-                        <div class="property_meta transparent bottom30">
+                        <div class="property_meta prop2 transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
                             <span><i class="icon-garage"></i>1 Garage</span>
                             <span></span>
@@ -623,7 +623,7 @@
                             <span><i class="icon-bed"></i>3 Rooms</span>
                             <span><i class="icon-safety-shower"></i>3 Bathroom</span>
                         </div>
-                        <div class="property_meta transparent bottom30">
+                        <div class="property_meta prop2 transparent bottom30">
                             <span><i class="icon-old-television"></i>TV Lounge</span>
                             <span><i class="icon-garage"></i>1 Garage</span>
                             <span></span>
@@ -669,7 +669,7 @@
                             <span><i class="icon-bed"></i> Rooms</span>
                             <span><i class="icon-safety-shower"></i> Bathroom</span>
                         </div>
-                        <div class="property_meta transparent bottom30">
+                        <div class="property_meta prop2 transparent bottom30">
                             {{-- <span><i class="icon-old-television"></i>TV Lounge</span> --}}
                             <span><i class="icon-garage"></i> Garage</span>
                             <span></span>
@@ -715,7 +715,7 @@
                             <span><i class="icon-bed"></i> Rooms</span>
                             <span><i class="icon-safety-shower"></i> Bathroom</span>
                         </div>
-                        <div class="property_meta transparent bottom30">
+                        <div class="property_meta prop2 transparent bottom30">
                             {{-- <span><i class="icon-old-television"></i>TV Lounge</span> --}}
                             <span><i class="icon-garage"></i> Garage</span>
                             <span></span>
