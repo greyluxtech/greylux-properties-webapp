@@ -75,6 +75,12 @@ body{
 	color:#1f1d22;
 	font-size:15px;
 }
+.desktop{
+    display: block;
+}
+.mobile{
+    display: none;
+}
 ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
     color:#999999;
 }
@@ -219,6 +225,11 @@ p{
 }
 .t_white{ color:#fff;}
 .t_yellow{ color:#ffd119;}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
 
 /* ------------- Buttons ------------*/
 .btn_common, .btn-more, .toggler, .btn-blue, .btn-white, .btn-black, .btn-dark, .btn-white-fill, .btn-yellow{
@@ -2036,10 +2047,10 @@ i.icon-safety-shower{font-size:16px !important;}
 #property-d-1-2 {
   background-color: #fff;
   position: relative;
-  -moz- transform: translateY(-100%);
-  -ms- transform: translateY(-100%);
-  -o- transform: translateY(-100%);
-  -webkit- transform: translateY(-100%);
+  -moz-transform: translateY(-100%);
+  -ms-transform: translateY(-100%);
+  -o-transform: translateY(-100%);
+  -webkit-transform: translateY(-100%);
   transform: translateY(-100%);
 }
 #property-d-1-2.space{ padding-left:10px; padding-right:10px;}
@@ -3986,14 +3997,6 @@ footer .footer_panel .media-body span > i{
     100% {top:0; }
 }
 
-
-
-
-
-
-
-
-
 @media screen and (max-width: 1024px){
 .topbar ul.breadcrumb_top li a{
   font-size: 10px;
@@ -4038,6 +4041,12 @@ header nav.navbar.bootsnav ul.nav > li > a{font-size: 14px;}
 }
 }
 @media screen and (max-width: 992px) {
+    .desktop{
+        display: block;
+    }
+    .mobile{
+        display: none;
+    }
 h1{
     font-size:30px;
 }
@@ -4185,6 +4194,12 @@ header nav.navbar.bootsnav ul.nav > li > a:before, nav.navbar.bootsnav ul.nav > 
 .banner h1 > span{ font-size:24px}
 }
 @media screen and (max-width: 800px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
 .slider-property {
   top: 130px;
 }
@@ -4214,6 +4229,12 @@ header nav.navbar.bootsnav ul.nav > li > a:before, nav.navbar.bootsnav ul.nav > 
 	.tp_overlay, .form_opener{ display: none;}
 }
 @media screen and (max-width: 767px) {
+    .desktop{
+        display: none;
+    }
+    .mobile{
+        display: block;
+    }
 .topbar .text-right{
 	text-align:left;
 }
@@ -4262,6 +4283,12 @@ ul.social_share {
 
 }
 @media screen and (max-width: 640px){
+.desktop{
+    display: none;
+}
+.mobile{
+    display: block;
+}
 
 #rev_overlaped h1{ font-size:28px; font-weight:bold; top: -100%;}
 
