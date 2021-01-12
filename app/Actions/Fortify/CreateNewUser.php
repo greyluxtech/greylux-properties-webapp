@@ -17,6 +17,22 @@ class CreateNewUser implements CreatesNewUsers
      * @param  array  $input
      * @return \App\Models\User
      */
+    // public function create(array $input)
+    // {
+    //     Validator::make($input, [
+    //         'name' => ['required', 'string', 'max:255'],
+    //         'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
+    //         'password' => $this->passwordRules(),
+    //     ])->validate();
+
+    //     return User::create([
+    //         'name' => $input['name'],
+    //         'email' => $input['email'],
+    //         'password' => Hash::make($input['password']),
+    //     ]);
+    // }
+
+
     public function create(array $input)
     {
         Validator::make($input, [
@@ -25,10 +41,22 @@ class CreateNewUser implements CreatesNewUsers
             'password' => $this->passwordRules(),
         ])->validate();
 
-        return User::create([
-            'name' => $input['name'],
-            'email' => $input['email'],
-            'password' => Hash::make($input['password']),
-        ]);
+        if($input['user'] === 'user') {
+          return  $user = User::create([
+                'name' => $input['name'],
+                'email' => $input['email'],
+                'password' => Hash::make($input['password']),
+            ]);
+            $user->assignRole('user');
+            
+        } elseif($input['user'] === 'agent') {
+          return  $user = User::create([
+                'name' => $input['name'],
+                'email' => $input['email'],
+                'password' => Hash::make($input['password']),
+            ]);
+            $user->assignRole('agent');
+        }
+        
     }
 }

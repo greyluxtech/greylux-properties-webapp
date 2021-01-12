@@ -19,12 +19,22 @@
 @section('lside')
   @include('dashboard.layouts.Lsidebar')
 @endsection
-@section('agentdash')
+@section('alink')
 <li>
+    <a href="#" >
+        <i class="metismenu-icon pe-7s-graph1"></i>My Properties
+    </a>
+</li>
+@endsection
+@section('adlink')
+{{-- <li>
     <a href="{{url('roles')}}" >
         <i class="metismenu-icon pe-7s-graph1"></i>Roles
     </a>
-  </li>
+</li> --}}
+<li class="nav-item">
+    <a href="{{ url('/admin') }}" class="nav-link">Admin Page</a>
+</li>
 @endsection
 @section('content')
 <body>

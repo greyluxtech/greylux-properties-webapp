@@ -124,7 +124,7 @@
             <!-- Nav tabs -->
             <ul class="nav nav-tabs" role="tablist">
               <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Login</a></li>
-              <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Register</a></li>
+              {{-- <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Register</a></li> --}}
             </ul>
             <!-- Tab panes -->
             <div class="tab-content padding_half">
@@ -167,7 +167,7 @@
                   </form>
                 </div>
               </div>
-              <div role="tabpanel" class="tab-pane fade" id="profile">
+              {{-- <div role="tabpanel" class="tab-pane fade" id="profile">
                 <div class="agent-p-form">
                     <x-jet-validation-errors class="mb-4" style="color: red"/>
                       <form class="callus clearfix" method="POST" action="{{ route('register') }}">
@@ -195,7 +195,7 @@
                     </div>
                   </form>
                 </div>
-              </div>
+              </div> --}}
             </div>
           </div>
         </div>

@@ -750,6 +750,9 @@
                                               <li class="nav-item">
                                                   <a href="{{ route('profile.show') }}" class="nav-link" :active="request()->routeIs('profile.show')">Profile</a>
                                               </li>
+                                              @can('view admin dashboard')
+                                                  @yield('adlink')
+                                              @endcan
                                               @if (Laravel\Jetstream\Jetstream::hasApiFeatures())
                                               <li class="nav-item-header nav-item">
                                                 <a href="{{ route('api-tokens.index') }}" class="nav-link" :active="request()->routeIs('api-tokens.index')">

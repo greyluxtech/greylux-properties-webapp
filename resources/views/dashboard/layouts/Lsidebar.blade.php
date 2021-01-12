@@ -53,13 +53,16 @@
                       <i class="metismenu-icon pe-7s-graph"></i>Likes
                   </a>
               </li>
-              <li>
-                  <a href="#" >
-                      <i class="metismenu-icon pe-7s-graph1"></i>My Houses
-                  </a>
-              </li>
-              @can(' view agent dashboard')   
+              {{-- @can('view user dashboard')   
                @yield('agentdash')
+            @endcan --}}
+
+            @can('view agent dashboard')
+            <li>
+                <a href="#" >
+                    <i class="metismenu-icon pe-7s-graph1"></i>My Properties
+                </a>
+            </li>
             @endcan
           </ul>
       </div>
